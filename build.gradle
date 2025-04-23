@@ -1,0 +1,6 @@
+ext {
+    curriculumFileName = "curriculum-template"
+    languages = ["DE", "EN"]
+}
+
+defaultTasks 'buildDocs'
