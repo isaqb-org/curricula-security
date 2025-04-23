@@ -10,18 +10,24 @@ The terminology used in the iSAQB curricula can be found as a (freely available)
 == Latest Release {release-version}
 
 The Advanced Level Curricula WEBSEC and EMBEDDEDSEC are currently maintained and published in both English (EN) and German (DE).
-Maintainers and volunteer reviewers collaborate on GitHub to improve the curriculum.
+Maintainers and volunteer reviewers collaborate on GitHub to improve the curricula.
 
 [cols="<,^,^"]
 |===
 | Version | HTML | PDF
 
 | German
-| link:{curriculumFileName}-de.html[HTML]
-| link:{curriculumFileName}-de.pdf[PDF]
+| link:curriculum-websec-de.html[HTML]
+| link:curriculum-websec-de.pdf[PDF]
+|
+| link:curriculum-embeddedsec-de.html[HTML]
+| link:curriculum-embeddedsec-de.pdf[PDF]
 
 | English
-| link:{curriculumFileName}-en.html[HTML]
-| link:{curriculumFileName}-en.pdf[PDF]
+| link:curriculum-websec-en.html[HTML]
+| link:curriculum-websec-en.pdf[PDF]
+|
+| link:curriculum-embeddedsec-en.html[HTML]
+| link:curriculum-embeddedsec-en.pdf[PDF]
 
 |===
