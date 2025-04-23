@@ -9,41 +9,23 @@ Dieser Abschnitt enthält Quellenangaben, die ganz oder teilweise im Curriculum 
 This section contains references that are cited in the curriculum.
 // end::EN[]
 
-[NOTE]
-====
-Aufbau eines Eintrags-Ankers:
-```
-- [[[label,Text der erscheint]]]
-```
-ACHTUNG: Die Labels dürfen nur Buchstaben beinhalten, keine Zahlen oder Sonderzeichen
-
-= = =
-
-Structure of an anchor:
-```
-- [[[label,text that will be shown]]]
-```
-ATTENTION: labels have to be non-numeric.
-====
-
-**B**
-
-- [[[bachmann,Bachmann et al. 2000]]] Bachmann, F., L. Bass, et al.: Software Architecture Documentation in Practice. Software Engineering Institute, CMU/SEI-2000-SR-004.
-- [[[bass,Bass et al. 2003]]] Bass, L., Clements, P. und Kazman, R. (2003): Software Architecture in Practice. Addison-Wesley, Reading, Mass
-
+ifeval::["{suffix}" == "EMBEDDEDSEC"]
 **C**
 
-- [[[clements,Clements et al. 2003]]] Clements, P., F. Bachmann, L. Bass, D. Garlan, J. Ivers et al.: Documenting Software Architectures – Views and Beyond. Addison Wesley, 2003.
+- [[[cve, CVE-Database]]] The MITRE Cooperation: Common Vulnerabilities and Exposures. https://www.cwe.org/
+- [[[cwe, CVE-Database]]] The MITRE Cooperation: Common Weakness Enumeration. https://cwe.mitre.org/
 
-**H**
+**F**
 
-- [[[hargis,Hargis 2004]]] Hargis, Gretchen et al.: Quality Technical Information: A Handbook for Writers and Editors. Prentice Hall, IBM Press, 2004.
+- [[[fernandez13, Fernandez-Buglioni 2013]]] Fernandez-Buglioni, F: Security Patterns in Practice: Designing Secure Architectures Using Software Patterns. Wiley, 2013
 
-**K**
+**O**
 
-- [[[kruchten,Kruchten 1995]]] Kruchten, P.: Architectural Blueprints – The 4-1 View Model of Architecture. IEEE Software November 1995; 12(6), p. 42-50.
+- [[[owasptop10, OWASP Top 10]]] Open Web Application Security Project: Top 10 Web Application Security Risks. https://owasp.org/www-project-top-ten/, 2021
+- [[[owasptop10iot, OWASP IoT Top 10]]] Open Web Application Security Project: OWASP Top 10 Internet of Things 2018. https://owasp.org/www-project-internet-of-things/, 2018
 
 **S**
 
-- [[[starke,Starke 2011]]] Starke, G. (2011): Effektive Software-Architekturen - Ein praktischer Leitfaden. 5. Auflage 2011, Carl Hanser Verlag, München.
+- [[[schumacher06, Schumacher 2006]]] Schumacher, M. Fernandez-Buglioni, F., et al.: Security Patterns: Integrating Security and Systems Engineering. Wiley, 2006
 
+endif::[]

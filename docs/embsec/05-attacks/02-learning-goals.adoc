@@ -1,0 +1,52 @@
+=== {learning-goals}
+
+// tag::DE[]
+[[LZ-5-1]]
+==== LZ 5-1: Dies ist das erste Lernziel in Kapitel 4, das mit xyz
+
+Hier wird beschrieben, was Teilnehmer:innen in diesem Lernziel lernen sollen. Das kann in Prosa-Text
+in ganzen Sätzen oder in Aufzählungen mit Unterpunkten erfolgen. Dabei kann auch unterschieden werden,
+wie wichtig einzelne Aspekte des Lernziels sind. Es kann hier bereits auf Literatur verwiesen werden.
+
+* Erstes Teilziel
+* Zweites Unterthema
+* Dritter Aspekt
+
+[[LZ-5-2]]
+==== LZ 5-2: Hier ist ein zweites Lernziel in diesem Kapitel
+tbd.
+
+// end::DE[]
+
+// tag::EN[]
+[[LG-5-1]]
+==== LG 5-1: Attacker Motivations and Knowledge
+
+Participants know the levels of capabilities (script kiddy, programmer, security expert, state
+actor/competitor, etc.) and motivations (fun, research, monetary gain, etc.) attackers exhibit.
+They should understand the issues with attacker-based risk approaches.
+
+
+[[LG-5-2]]
+==== LG 5-2: Attack Terminology
+
+Participants understand the difference between weaknesses and vulnerabilities.
+They understand the concept of an attack surface.
+
+[[LG-5-3]]
+==== LG 5-3: Security Information Sources
+
+Participants know sources from which information about attacks, vulnerabilities and weaknesses can
+be gathered (e.g., CVE and CWE database, OWASP, SANS Institute, CISA, BSI or UN R 155 for automotive).
+
+[[LG-5-4]]
+==== LG 5-4: Common Attack Patterns
+
+Participants understand typical weaknesses, attack patterns and their effects.
+Examples for these are overflows, injections, privilege escalations, denial of service,
+attacker-in-the-middle, reverse engineering, social engineering.
+Further examples can be found in the OWASP (IoT) Top 10 and aforementioned security information
+sources.
+
+// end::EN[]
+

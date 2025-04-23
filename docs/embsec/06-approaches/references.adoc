@@ -1,0 +1,10 @@
+=== {references}
+
+<<fernandez13>>, <<schumacher06>>
+
+// tag::DE[]
+// silence asciidoctor warnings
+// end::DE[]
+// tag::EN[]
+// silence asciidoctor warnings
+// end::EN[]

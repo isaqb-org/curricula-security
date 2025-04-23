@@ -1,13 +1,13 @@
-// header file for curriculum section 3: Lerneinheit 3
+// header file for curriculum section 4: Lerneinheit 4
 // (c) iSAQB e.V. (https://isaqb.org)
 // ====================================================
 
 // tag::DE[]
-== Der Titel des dritten Moduls
+== Lösungsansätze
 // end::DE[]
 
 // tag::EN[]
-== The Third Module's Title
+== Solution Approaches
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]

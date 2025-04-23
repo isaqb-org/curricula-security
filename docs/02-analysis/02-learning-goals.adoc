@@ -1,0 +1,74 @@
+=== {learning-goals}
+
+// tag::DE[]
+[[LZ-2-1]]
+==== LZ 2-1: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Hier wird beschrieben, was Teilnehmer:innen in diesem Lernziel lernen sollen. Das kann in Prosa-Text
+in ganzen Sätzen oder in Aufzählungen mit Unterpunkten erfolgen. Dabei kann auch unterschieden werden,
+wie wichtig einzelne Aspekte des Lernziels sind. Es kann hier bereits auf Literatur verwiesen werden.
+
+* Erstes Teilziel
+* Zweites Unterthema
+* Dritter Aspekt
+
+[[LZ-2-2]]
+==== LZ 2-2: Hier ist ein zweites Lernziel in diesem Kapitel
+tbd.
+
+// end::DE[]
+
+// tag::EN[]
+[[LG-2-1]]
+==== LG 2-1: System definition and context
+Participants understand the security purpose of the system context. Participants are able to create
+a system context view, building on their Foundation Level knowledge.
+The system context provides necessary information for the security analysis of the system:
+
+* Interfaces and their purpose
+* Data Flows from and to external systems
+* Assets associated with the system
+
+[[LG-2-2]]
+==== LG 2-2: Asset and damage identification
+
+Participants understand what assets are and know typical examples.
+Participants are able to identify assets for a given system.
+Participants are able to identify damage scenarios an attack can cause these assets.
+
+ifeval::["{suffix}" == "EMBEDDEDSEC"]
+Examples of assets in embedded systems are personally identifiable information, user's health and
+safety, intellectual property, hardware components, cryptographic material and communication
+channels.
+endif::[]
+
+[[LG-2-3]]
+==== LG 2-3: Threat Modeling
+
+Participants know approaches to threat modeling (attacker-, asset-, system-centric) and understand
+their advantages and disadvantages.
+Participants understand the role threat modeling plays in the product lifecycle phases and that the
+model changes over time.
+Participants understand that threat modeling is an interdisciplinary tasks, that benefits from diverse
+inputs.
+
+[[LG-2-4]]
+==== LG 2-4: Threat scenario analysis
+
+Participants know approaches to identifying threats (e.g., Misuse Case Diagram, Data Flow Diagram,
+STRIDE).
+Participants understand how architectural views can be employed for threat modeling.
+Participants know typical methods to refine threats with attack paths (e.g., Attack Tress, Vulnerability
+Analysis, Kill-Chains).
+Participants are able to identify and analyze threats for a given system.
+
+[[LG-2-5]]
+==== LG 2-4: Risk Assessment Methods
+
+Participants understand the goal of assessing the risk of threats and the associated damage scenarios.
+Participants know approaches to classifying and rate attack risks.
+
+ifeval::["{suffix}" == "EMBEDDEDSEC"]
+Examples for common rating systems are CVSS, ISO/SAE 21434 and MITRE's Medical CVSS rubric.
+endif::[]
+
+// end::EN[]

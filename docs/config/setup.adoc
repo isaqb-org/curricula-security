@@ -12,14 +12,18 @@
 // additional markers might be configured here!
 :include_configuration: tags=**;{language};!*
 
-:curriculum-short: MODULKUERZEL
+ifeval::["{suffix}" == "EMBEDDEDSEC"]
+:curriculum-short: EMBEDDEDSEC
+endif::[]
+
+ifeval::["{suffix}" == "EMBEDDEDSEC"]
+:curriculum-name: Embedded Security for Architects
+endif::[]
 
 ifeval::["{language}" == "DE"]
-:curriculum-name: MODULNAME IN VOLLER LAENGE
 :curriculum-header-title: iSAQB-Curriculum für Advanced Level: {curriculum-short}
 endif::[]
 
 ifeval::["{language}" == "EN"]
-:curriculum-name: FULL NAME OF MODULE
 :curriculum-header-title: iSAQB curriculum for Advanced Level: {curriculum-short}
 endif::[]

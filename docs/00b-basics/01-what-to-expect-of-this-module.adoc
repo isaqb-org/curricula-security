@@ -8,13 +8,8 @@ Am Ende des Moduls kennen die Teilnehmerinnen und Teilnehmer … und können …
 // tag::EN[]
 === What does the module “{curriculum-short}” convey?
 
-The module presents {curriculum-short} to the participants …
-At the end of the module, the participants know … and are able to …
+The module presents {curriculum-short}, the general curriculum for iSAQB security architecture
+curricula.
+The learning goals cover the common ground, independent of the application domain. The actual
+curricula describe the module's content.
 // end::EN[]
-
-
-[NOTE]
-====
-Hier bitte das Modul bzw. dessen Lerninhalte zusammenfassend in 5-8 Sätzen beschreiben. Dabei `{curriculum-name}`
-nicht entfernen, beim Zusammenbauen wird dieser Platzhalter mit dem Modulnamen ersetzt.
-====

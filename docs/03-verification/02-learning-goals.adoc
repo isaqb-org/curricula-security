@@ -1,0 +1,64 @@
+=== {learning-goals}
+
+// tag::DE[]
+[[LZ-3-1]]
+==== LZ 3-1: Dies ist das erste Lernziel in Kapitel 3, das mit xyz
+
+Hier wird beschrieben, was Teilnehmer:innen in diesem Lernziel lernen sollen. Das kann in Prosa-Text
+in ganzen Sätzen oder in Aufzählungen mit Unterpunkten erfolgen. Dabei kann auch unterschieden werden,
+wie wichtig einzelne Aspekte des Lernziels sind. Es kann hier bereits auf Literatur verwiesen werden.
+
+* Erstes Teilziel
+* Zweites Unterthema
+* Dritter Aspekt
+
+[[LZ-3-2]]
+==== LZ 3-2: Hier ist ein zweites Lernziel in diesem Kapitel
+tbd.
+
+// end::DE[]
+
+// tag::EN[]
+[[LG-3-1]]
+==== LG 3-1: Verification Goals
+Participants understand the goals of security testing.
+Participants know classifications of security testing:
+
+* Dynamic Application Security Testing
+* Static Application Security Testing
+* Interactive Application Security Testing
+
+Participants understand the advantages and disadvantages of static and dynamic methods.
+
+[[LG-3-2]]
+==== LG 3-2: Static Analysis
+Participants know static analysis techniques such as 
+
+* Software Composition Analysis
+* Semantic Code Analysis
+* Vulnerability Checking
+* Taint Analysis.
+
+[[LG-3-3]]
+==== LG 3-3: Dynamic Testing
+Participants know dynamic testing techniques such as 
+
+* Fuzzy Testing
+* Dynamic Taint Analysis
+* Vulnerability Scanning
+* Threat Mitigation Testing
+* Robustness Testing
+
+[[LG-3-4]]
+==== LG 3-4: Penetration Testing
+Participants understand the goal of penetration testing.
+Participants understand the relationship of penetration testing to other verification methods.
+Participants know the steps of a penetration test:
+
+1. Test Scope Definition
+2. Target Reconnaissance
+3. Vulnerability Analysis
+4. Proof of Concept Exploits
+5. Vulnerability Report
+
+// end::EN[]

@@ -1,0 +1,21 @@
+// tag::DE[]
+|===
+| Dauer: XXX Min. | Übungszeit: XXX Min.
+|===
+
+=== Begriffe und Konzepte
+Begriff 1, Begriff 2, Begriff 3
+
+
+// end::DE[]
+
+// tag::EN[]
+ifeval::["{suffix}" == "EMBEDDEDSEC"]
+|===
+| Duration: 200 min | Practice time: 190 min
+|===
+ifeval::["{suffix}" == "EMBEDDEDSEC"]
+
+=== Terms and Principles
+Security by Design
+// end::EN[]

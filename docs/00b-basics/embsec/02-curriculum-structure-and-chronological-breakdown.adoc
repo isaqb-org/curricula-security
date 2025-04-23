@@ -24,12 +24,14 @@
 |===
 | Content
 | Recommended minimum duration (minutes)
-| 1. Introduction | Specified by module
-| 2. Analysis | Specified by module
-| 3. Verification | Specified by module
-| 4. Cryptography | Specified by module
+| 1. Introduction | 120
+| 2. Analysis | 240
+| 3. Verification | 120
+| 4. Cryptography | 90
+| 5. Attacks | 120
+| 6. Solution Approaches | 390
 | |
-| Total | -
+| Total | 1080 (18h)
 
 |===
 

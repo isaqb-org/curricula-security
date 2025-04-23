@@ -21,15 +21,12 @@ Teilnehmerinnen und Teilnehmer **sollten** folgende Kenntnisse und/oder Erfahrun
 
 Participants **should** have the following prerequisite knowledge:
 
-- Prerequisite 1
-- Prerequisite 2, etc.
+- Foundations of software architecture, as they are taught in CPSA-F accredited trainings.
+- Practical experience with the implementation and design of embedded systems and typical
+challenges in developing embedded systems.
 
 Knowledge in the following areas may be **helpful** for understanding some concepts:
 
-- Area 1:
-  * Knowledge 1
-  * Experience 2
-  * Knowledge 3
-  * Experience 4
-  * Understanding 5
+- Practical experience in designing safety-relevant systems.
+- Practical experience in designing security-relevant systems.
 // end::EN[]

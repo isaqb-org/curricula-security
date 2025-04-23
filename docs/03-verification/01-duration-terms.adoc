@@ -1,0 +1,22 @@
+// tag::DE[]
+|===
+| Dauer: XXX Min. | Übungszeit: XXX Min.
+|===
+
+=== Begriffe und Konzepte
+Begriff 1, Begriff 2, Begriff 3
+
+
+// end::DE[]
+
+// tag::EN[]
+ifeval::["{suffix}" == "EMBEDDEDSEC"]
+|===
+| Duration: 90 min | Practice time: 30 min
+|===
+endif::[]
+
+=== Terms and Principles
+Dynamic Testing, Static Analysis, Verification, Validation
+
+// end::EN[]

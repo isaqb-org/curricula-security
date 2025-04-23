@@ -1,0 +1,23 @@
+// tag::DE[]
+|===
+| Dauer: XXX Min. | Übungszeit: XXX Min.
+|===
+
+=== Begriffe und Konzepte
+Begriff 1, Begriff 2, Begriff 3
+
+
+// end::DE[]
+
+// tag::EN[]
+ifeval::["{suffix}" == "EMBEDDEDSEC"]
+|===
+| Duration: 120 min | Practice time: 120 min
+|===
+ifeval::["{suffix}" == "EMBEDDEDSEC"]
+
+=== Terms and Principles
+asset, attack path, attack tree, damage scenario, feasibility, impact, risk, security claim, security goal,
+system context, system definition, threat, threat modeling
+
+// end::EN[]

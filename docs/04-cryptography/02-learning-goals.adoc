@@ -1,0 +1,69 @@
+=== {learning-goals}
+
+// tag::DE[]
+[[LZ-4-1]]
+==== LZ 4-1: Dies ist das erste Lernziel in Kapitel 4, das mit xyz
+
+Hier wird beschrieben, was Teilnehmer:innen in diesem Lernziel lernen sollen. Das kann in Prosa-Text
+in ganzen Sätzen oder in Aufzählungen mit Unterpunkten erfolgen. Dabei kann auch unterschieden werden,
+wie wichtig einzelne Aspekte des Lernziels sind. Es kann hier bereits auf Literatur verwiesen werden.
+
+* Erstes Teilziel
+* Zweites Unterthema
+* Dritter Aspekt
+
+[[LZ-4-2]]
+==== LZ 4-2: Hier ist ein zweites Lernziel in diesem Kapitel
+tbd.
+
+// end::DE[]
+
+// tag::EN[]
+[[LG-4-1]]
+==== LG 4-1: Goals of Cryptography
+
+Participants know the goals of cryptography (Authenticity, Confidentiality and Integrity).
+Participants know how a basic cryptographic function works.
+
+[[LG-4-2]]
+==== LG 4-2: Symmetric Cryptography
+
+Participants understand what symmetric cryptography is.
+Participants know use cases, advantages and disadvantages of symmetric cryptography.
+Participants know examples of recommended symmetric algorithms (e.g. from NIST or BSI).
+
+[[LG-4-3]]
+==== LG 4-3: Asymmetric Cryptography
+
+Participants understand what asymmetric cryptography is.
+Participants know use cases, advantages and disadvantages of asymmetric cryptography.
+Participants know examples of recommended asymmetric algorithms (e.g. from NIST or BSI) and are aware
+of the need to future-proof applications for post-quantum attacks.
+
+[[LG-4-4]]
+==== LG 4-4: Secure Hashing
+
+Participants understand what a hash function does.
+Participants understand quality goals of hash functions (preimage resistance, second-preimage
+resistance, collision resistance, avalanche effect and uniqueness of output).
+Participants know use cases of hashing.
+Participants know examples of recommended hashing algorithms (e.g. from NIST or BSI).
+
+[[LG-4-5]]
+==== LG 4-5: Key Derivation Functions
+
+Participants understand the use of key derivation functions.
+Participants understand the difference in qualities compared to hashing functions.
+Participants know examples of recommended key derivation functions and their uses (e.g. from NIST or
+BSI)
+
+[[LG-4-6]]
+==== LG 4-6: Randomness and Entropy
+
+Participants understand why cryptographically-secure random values are an important cornerstone of
+cryptography.
+Participants know how random values can be generated through random number generators (RNGs) and
+pseudo-random random number generators (PRNGs).
+Participants are aware of common pitfalls, when generating random values.
+
+// end::EN[]

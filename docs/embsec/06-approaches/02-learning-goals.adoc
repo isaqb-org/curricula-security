@@ -1,0 +1,122 @@
+=== {learning-goals}
+
+// tag::DE[]
+[[LZ-6-1]]
+==== LZ 6-1: Dies ist das erste Lernziel in Kapitel 4, das mit xyz
+
+Hier wird beschrieben, was Teilnehmer:innen in diesem Lernziel lernen sollen. Das kann in Prosa-Text
+in ganzen Sätzen oder in Aufzählungen mit Unterpunkten erfolgen. Dabei kann auch unterschieden werden,
+wie wichtig einzelne Aspekte des Lernziels sind. Es kann hier bereits auf Literatur verwiesen werden.
+
+* Erstes Teilziel
+* Zweites Unterthema
+* Dritter Aspekt
+
+[[LZ-6-2]]
+==== LZ 6-2: Hier ist ein zweites Lernziel in diesem Kapitel
+tbd.
+
+// end::DE[]
+
+// tag::EN[]
+[[LG-6-1]]
+==== LG 6-1: Security as a Quality
+
+Participants understand security as a system quality and its relation to other quality requirements.
+Participants understand security as a quality in the context of ISO 25010 and the relation of these
+qualities to the threat modeling analysis technique STRIDE.
+Participants understand that security is a cross-cutting concern, that needs to be addressed at the
+system, hardware and software level.
+
+[[LG-6-2]]
+==== LG 6-2: Guiding Principles
+
+Participants understand the guiding principles to building secure systems, examples include:
+
+* Modular design
+* Defense in depth
+* Least-privilege Principle
+* Data Minimization
+* Self-protection
+* Non-circumventable
+* (No) Security by Obscurity
+* Input and Output Validation
+* Zero Trust
+
+[[LG-6-3]]
+==== LG 6-3: Authentication and Authorization
+
+Participants know methods, patterns and technologies to ensure authentication of entities and manage
+authorization for actions taken on the system.
+
+Examples for these are
+
+* Access Control Lists,
+* the Authenticator Pattern,
+* Capabilities,
+* Credentials,
+* Mandatory Access Control,
+* Multi-Factor Authentication,
+* Multi-Level Security and
+* Session Management.
+
+[[LG-6-4]]
+==== LG 6-4: System Integrity
+
+Participants know methods, patterns and technologies to ensure the system's integrity and protect
+the system against tampering.
+
+Examples are
+
+* immutability,
+* run-time only mutability,
+* Secure Boot,
+* the Trusted Computing concept,
+* handling of  persistent mutable data,
+* Isolation and Sandboxing,
+* Hardware Memory Protection,
+* Software Memory Protection and
+* Resource Exhaustion protections.
+
+[[LG-6-5]]
+==== LG 6-5: Software Updates
+
+Participants understand the need for software updates and the challenges deploying updates to embedded
+devices pose.
+Participants know the security trade-off of updatable devices.
+Participants know possible solutions to securely deploy updates to embedded devices (e.g., signed
+and encrypted firmware packages, secure version numbers)
+
+[[LG-6-6]]
+==== LG 6-6: Communication
+
+Participants understand the necessity of ensuring confidentiality, integrity and availability of
+communication.
+Participants know mechanisms to harden communication against attacks such as
+
+* encryption (e.g., with AEAD algorithms),
+* firewalls,
+* segregation and
+* security protocols such as MACSec, IPSec, TLS or
+* Secure On-Board Communication.
+
+[[LG-6-7]]
+==== LG 6-7: Secure Implementation
+
+Participants understand how a well engineered implementation supports the security goals.
+Participants know standards and guidelines to reduce the likelihood of introducing defects during
+the implementation such as MISRA, CERT Coding Guidelines or OWASP's Secure Coding Practices.
+
+[[LG-6-8]]
+==== LG 6-8: Hardware Security
+
+Participants understand what role the underlying hardware plays in achieving security goals.
+Participants know how isolation concept can be realized with hardware support, what a Hardware
+Security Module or a Trusted Platform Module is.
+Participants know examples of hardware security mechanisms such as Physical Unclonable Functions or
+Fuses.
+Participants know that hardware interfaces might need to be disabled for a production deployment,
+e.g., serial and debug interfaces
+
+
+// end::EN[]
