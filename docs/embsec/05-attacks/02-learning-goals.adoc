@@ -23,21 +23,21 @@ tbd.
 ==== LG 5-1: Attacker Motivations and Knowledge
 
 Participants know the levels of capabilities (script kiddy, programmer, security expert, state
-actor/competitor, etc.) and motivations (fun, research, monetary gain, etc.) attackers exhibit.
+actor/competitor, etc.) and motivations (fun, research, monetary gain) attackers exhibit.
 They should understand the issues with attacker-based risk approaches.
-
 
 [[LG-5-2]]
 ==== LG 5-2: Attack Terminology
 
 Participants understand the difference between weaknesses and vulnerabilities.
-They understand the concept of an attack surface.
+They understand the concept of an attack surface and how it relates to weaknesses and
+vulnerabilities.
 
 [[LG-5-3]]
 ==== LG 5-3: Security Information Sources
 
 Participants know sources from which information about attacks, vulnerabilities and weaknesses can
-be gathered (e.g., CVE and CWE database, OWASP, SANS Institute, CISA, BSI or UN R 155 for automotive).
+be gathered (e.g., CVE and CWE database, OWASP, SANS Institute, CISA, BSI, or UN R 155 for automotive).
 
 [[LG-5-4]]
 ==== LG 5-4: Common Attack Patterns
@@ -47,6 +47,16 @@ Examples for these are overflows, injections, privilege escalations, denial of s
 attacker-in-the-middle, reverse engineering, social engineering.
 Further examples can be found in the OWASP (IoT) Top 10 and aforementioned security information
 sources.
+
+[[LG-5-5]]
+==== LG 5-5: Hardware Attack Surfaces
+
+Participants understand that attacks on embedded systems are not limited to software-based attacks,
+but can also be conducted via the system's hardware.
+Participants know that hardware attacks can be invasive, therefore damaging the device
+under attack, or non-invasive.
+Participants know hardware-based attacks such as side channel attacks, voltage glitching, or
+microprobing.
 
 // end::EN[]
 

@@ -1,0 +1,104 @@
+=== {learning-goals}
+
+// tag::DE[]
+[[LZ-7-1]]
+==== LZ 7-1: Dies ist das erste Lernziel in Kapitel 4, das mit xyz
+
+Hier wird beschrieben, was Teilnehmer:innen in diesem Lernziel lernen sollen. Das kann in Prosa-Text
+in ganzen Sätzen oder in Aufzählungen mit Unterpunkten erfolgen. Dabei kann auch unterschieden werden,
+wie wichtig einzelne Aspekte des Lernziels sind. Es kann hier bereits auf Literatur verwiesen werden.
+
+* Erstes Teilziel
+* Zweites Unterthema
+* Dritter Aspekt
+
+[[LZ-7-2]]
+==== LZ 7-2: Hier ist ein zweites Lernziel in diesem Kapitel
+tbd.
+
+// end::DE[]
+
+// tag::EN[]
+[[LG-7-1]]
+==== LG 7-1: Authentication and Authorization
+
+Participants know methods, patterns and technologies to ensure authentication of entities and manage
+authorization for actions taken on the system.
+
+Authentication example patterns are
+
+* Symmetric and Asymmetric Authentication (e.g., using Universal Diagnostic Services),
+* Credentials,
+* Multi-Factor Authentication (biometrics or secure hardware tokens),
+
+Authorization example patterns are
+
+* Access Control Lists,
+* the Authenticator Pattern,
+* Capabilities,
+* Mandatory Access Control,
+* Multi-Level Security.
+
+Participants understand that users in embedded systems might be other systems and system-to-system
+authentication and authorization needs to be addressed, compared to user-to-system authentication.
+Participants understand that user interaction with the device might be limited, when selecting
+authentication mechanisms.
+
+[[LG-7-2]]
+==== LG 7-2: System Integrity
+
+Participants know methods, patterns and technologies to ensure the system's integrity and protect
+the system against tampering.
+
+Examples to ensure software integrity are
+
+* immutability,
+* run-time only mutability,
+* software signing,
+* Secure Boot (e.g., using a secure element or a trusted computing base),
+* encryption of user data.
+
+Examples to ensure integrity of operations are
+
+* use of the memory protection unit to ensure isolation and memory access control,
+* separation of persistent mutable data from immutable, executable data,
+* usage of isolation and sandboxing,
+* software memory protection (Stack Canaries, address space layout randomization),
+* resource exhaustion protections,
+* control flow checking (e.g., software based encoding or hardware watchdogs),
+
+[[LG-7-3]]
+==== LG 7-3: Communication
+
+Participants understand the necessity of ensuring confidentiality, integrity and availability of
+communication.
+Participants know mechanisms to harden communication against attacks such as
+
+* message counters to detect dropped messages or availability issues,
+* encryption (e.g., with AEAD algorithms),
+* segregation of communication networks and
+* security protocols such as MACSec, IPSec, TLS,
+* secure On-Board Communication for CAN, or
+* air gaping critical systems
+
+Participants understand that embedded buses are limited in bandwidth and message size, therefore
+security mechanisms for protecting communication over such buses might have lower security
+guarantees compared to TLS or other typical communication protection.
+
+[[LG-7-4]]
+==== LG 7-4: Hardware Security
+
+Participants understand what role the underlying hardware plays in achieving security goals.
+Participants know how isolation concept can be realized with hardware support, what a Hardware
+Security Module or a Trusted Platform Module is.
+Participants know examples of hardware security mechanisms such as Physical Unclonable Functions
+(PUF) or Fuses.
+Participants know that hardware interfaces might need to be disabled for a production deployment,
+e.g., serial and debug interfaces
+Participants know examples for anti-temper protection such as temper sensors, coatings and potting,
+physical access protection.
+
+Participants understand the concept of secure enclaves and now examples of implementations, such as
+the ARM's TrustZone, the Confidential Compute Architecture, or the Secure Hardware Extension (SHE).
+
+// end::EN[]

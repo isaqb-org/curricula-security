@@ -3,11 +3,11 @@
 // ====================================================
 
 // tag::DE[]
-== Angriffe
+== Lösungsansätze
 // end::DE[]
 
 // tag::EN[]
-== Embedded Security Threats
+== Embedded Security Design Patterns
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]

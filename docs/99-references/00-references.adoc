@@ -17,6 +17,7 @@ ifeval::["{suffix}" == "EMBEDDEDSEC"]
 
 **F**
 
+- [[[ferguson10, Ferguson 2010]]] Ferguson, N., Schneier, B., Kohno, T: Cryptography Engineering: Design Principles and Practical Applications. Wiley, 2010
 - [[[fernandez13, Fernandez-Buglioni 2013]]] Fernandez-Buglioni, F: Security Patterns in Practice: Designing Secure Architectures Using Software Patterns. Wiley, 2013
 
 **O**
@@ -26,6 +27,7 @@ ifeval::["{suffix}" == "EMBEDDEDSEC"]
 
 **S**
 
-- [[[schumacher06, Schumacher 2006]]] Schumacher, M. Fernandez-Buglioni, F., et al.: Security Patterns: Integrating Security and Systems Engineering. Wiley, 2006
+- [[[shostack14, Shostack 2024]]] Shostack, A.: Threat Modeling Designing for Security. Wiley, 2014
+- [[[schumacher06, Schumacher 2006]]] Schumacher, M., Fernandez-Buglioni, F., et al.: Security Patterns: Integrating Security and Systems Engineering. Wiley, 2006
 
 endif::[]
