@@ -20,12 +20,18 @@ image:https://img.shields.io/github/commits-since/isaqb-org/{repo-name}/latest.s
 | Version | HTML | PDF
 
 | German
-| link:{curriculumFileName}-de.html[HTML]
-| link:{curriculumFileName}-de.pdf[PDF]
+| link:curriculum-websec-de.html[HTML]
+| link:curriculum-websec-de.pdf[PDF]
+|
+| link:curriculum-embeddedsec-de.html[HTML]
+| link:curriculum-embeddedsec-de.pdf[PDF]
 
 | English
-| link:{curriculumFileName}-en.html[HTML]
-| link:{curriculumFileName}-en.pdf[PDF]
+| link:curriculum-websec-en.html[HTML]
+| link:curriculum-websec-en.pdf[PDF]
+|
+| link:curriculum-embeddedsec-en.html[HTML]
+| link:curriculum-embeddedsec-en.pdf[PDF]
 
 |===
 
