@@ -12,7 +12,7 @@ Begriff 1, Begriff 2, Begriff 3
 // tag::EN[]
 ifeval::["{suffix}" == "EMBEDDEDSEC"]
 |===
-| Duration: 200 min | Practice time: 190 min
+| Duration: 90 min | Practice time: 30 min
 |===
 ifeval::["{suffix}" == "EMBEDDEDSEC"]
 

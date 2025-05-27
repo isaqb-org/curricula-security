@@ -29,7 +29,8 @@
 | 3. Verification | 120
 | 4. Cryptography | 90
 | 5. Attacks | 120
-| 6. Solution Approaches | 390
+| 6. Embedded Design Considerations | 120
+| 7. Embedded Security Design Patterns | 270
 | |
 | Total | 1080 (18h)
 

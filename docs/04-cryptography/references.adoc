@@ -1,5 +1,9 @@
 === {references}
 
+ifeval::["{suffix}" == "EMBEDDEDSEC"]
+<<ferguson10>>
+endif::[]
+
 // tag::DE[]
 // silence asciidoctor warnings
 // end::DE[]

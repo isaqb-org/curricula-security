@@ -50,7 +50,9 @@ ifeval::["{suffix}" == "EMBEDDEDSEC"]
 include::embsec/05-attacks/00-structure.adoc[{include_configuration}]
 
 <<<
-include::embsec/06-approaches/00-structure.adoc[{include_configuration}]
+include::embsec/06-considerations/00-structure.adoc[{include_configuration}]
+
+include::embsec/07-patterns/00-structure.adoc[{include_configuration}]
 endif::[]
 
 <<<

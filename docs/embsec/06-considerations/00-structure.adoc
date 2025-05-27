@@ -7,7 +7,7 @@
 // end::DE[]
 
 // tag::EN[]
-== Solution Approaches
+== Embedded Security Design Considerations
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]

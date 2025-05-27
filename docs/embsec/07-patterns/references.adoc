@@ -1,8 +1,6 @@
 === {references}
 
-ifeval::["{suffix}" == "EMBEDDEDSEC"]
-<<shostack14>>
-endif::[]
+<<fernandez13>>, <<schumacher06>>
 
 // tag::DE[]
 // silence asciidoctor warnings

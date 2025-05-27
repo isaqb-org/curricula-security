@@ -12,12 +12,10 @@ Begriff 1, Begriff 2, Begriff 3
 // tag::EN[]
 ifeval::["{suffix}" == "EMBEDDEDSEC"]
 |===
-| Duration: 120 min | Practice time: 120 min
+| Duration: 120 min | Practice time: 150 min
 |===
 ifeval::["{suffix}" == "EMBEDDEDSEC"]
 
 === Terms and Principles
-Asset, Attack Path, Attack Tree, Damage Scenario, Feasibility, Impact, Risk, Security Claim, Security Goal,
-System Context, System Definition, Threat, Threat Modeling
-
+Security by Design
 // end::EN[]
