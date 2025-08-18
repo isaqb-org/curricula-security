@@ -19,6 +19,11 @@ ifeval::["{suffix}" == "EMBEDDEDSEC"]
 
 - [[[fernandez13, Fernandez-Buglioni 2013]]] Fernandez-Buglioni, F: Security Patterns in Practice: Designing Secure Architectures Using Software Patterns. Wiley, 2013
 
+**I**
+
+- [[[isaqbfm, iSAQB AL Formal Methods]]] iSAQB e.V. : The CPSA Advanced Level Module Formal Methods. iSAQB e.V., 2024
+- [[[istqbgloassry, iSTQB Glossary]]] iSTQB: iSTQB Glossary. iSTQB, https://glossary.istqb.org/en_US/home
+
 **O**
 
 - [[[owasptop10, OWASP Top 10]]] Open Web Application Security Project: Top 10 Web Application Security Risks. https://owasp.org/www-project-top-ten/, 2021

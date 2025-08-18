@@ -1,5 +1,7 @@
 === {references}
 
+<<isaqbfm>>, <<istqbgloassry>>
+
 // tag::DE[]
 // silence asciidoctor warnings
 // end::DE[]
