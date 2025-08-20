@@ -17,6 +17,6 @@ ifeval::["{suffix}" == "EMBEDDEDSEC"]
 endif::[]
 
 === Terms and Principles
-Dynamic Testing, Static Analysis, Verification, Validation
+Dynamic Testing, Formal Methods, Static Analysis, Verification, Validation
 
 // end::EN[]

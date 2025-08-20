@@ -21,8 +21,8 @@ tbd.
 // tag::EN[]
 [[LG-3-1]]
 ==== LG 3-1: Verification Goals
-Participants understand the goals of security testing.
-Participants know classifications of security testing:
+Participants understand the goals of security verification.
+Participants know classifications of security Verification methods:
 
 * Dynamic Application Security Testing
 * Static Application Security Testing
