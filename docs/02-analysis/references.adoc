@@ -1,7 +1,7 @@
 === {references}
 
 ifeval::["{suffix}" == "EMBEDDEDSEC"]
-<<shostack14>>
+<<coley2020>>, <<cvss>>, <<iso21434>>, <<shostack14>>
 endif::[]
 
 // tag::DE[]

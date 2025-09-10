@@ -13,6 +13,7 @@ ifeval::["{suffix}" == "EMBEDDEDSEC"]
 **C**
 
 - [[[cve, CVE-Database]]] The MITRE Cooperation: Common Vulnerabilities and Exposures. https://www.cve.org/
+- [[[cvss, Common Vulnerability Scoring System]]] Common Vulnerability Scoring System SIG. Forum of Incident Response and Security. https://www.first.org/cvss/
 - [[[cwe, CWE-Database]]] The MITRE Cooperation: Common Weakness Enumeration. https://cwe.mitre.org/
 
 **F**
@@ -22,8 +23,19 @@ ifeval::["{suffix}" == "EMBEDDEDSEC"]
 
 **I**
 
+- [[[iec62443, IEC 62443]]] IEC 62443-1-1: Industrial communication networks - Network and system security - Part 1-1: Terminology, concepts and models. International Electrotechnical Commission, Geneva, Switzerland.
 - [[[isaqbfm, iSAQB AL Formal Methods]]] iSAQB e.V. : The CPSA Advanced Level Module Formal Methods. iSAQB e.V., 2024
+- [[[iso21434, ISO/SAE 21434]]] ISO/SAE 21434:2021: Road vehicles - Cybersecurity engineering. International Organization for Standardization, Geneva, Switzerland.
+- [[[iso25010, ISO/IEC 25010]]] ISO/IEC 25010:2023: Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - Product quality model. International Organization for Standardization, Geneva, Switzerland.
 - [[[istqbgloassry, iSTQB Glossary]]] iSTQB: iSTQB Glossary. iSTQB, https://glossary.istqb.org/en_US/home
+
+**M**
+
+- [[[coley2020, Coley 2020]]] Coley, S.C., Chase, P.: Rubric for Applying CVSS to Medical Devices. MITRE Corporation, 2020
+
+**N**
+
+- [[[nistsp800, NIST SP 800]]] NIST Special Publication 800 Series. National Institute of Standards and Technology, Gaithersburg, MD, USA. https://csrc.nist.gov/publications/sp800
 
 **O**
 
