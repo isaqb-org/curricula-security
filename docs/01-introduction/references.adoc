@@ -1,5 +1,9 @@
 === {references}
 
+ifeval::["{suffix}" == "EMBEDDEDSEC"]
+<<iec62443>>, <<iso21434>>, <<iso25010>>, <<nistsp800>>
+endif::[]
+
 // tag::DE[]
 // silence asciidoctor warnings
 // end::DE[]
