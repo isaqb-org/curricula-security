@@ -1,6 +1,8 @@
 === {references}
 
+ifeval::["{suffix}" == "EMBEDDEDSEC"]
 <<isaqbfm>>, <<istqbgloassry>>
+endif::[]
 
 // tag::DE[]
 // silence asciidoctor warnings
