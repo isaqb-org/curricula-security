@@ -32,7 +32,7 @@ ifeval::["{suffix}" == "EMBEDDEDSEC"]
 
 **S**
 
-- [[[shostack14, Shostack 2024]]] Shostack, A.: Threat Modeling Designing for Security. Wiley, 2014
+- [[[shostack14, Shostack 2014]]] Shostack, A.: Threat Modeling Designing for Security. Wiley, 2014
 - [[[schumacher06, Schumacher 2006]]] Schumacher, M., Fernandez-Buglioni, F., et al.: Security Patterns: Integrating Security and Systems Engineering. Wiley, 2006
 
 endif::[]
