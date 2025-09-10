@@ -12,8 +12,8 @@ This section contains references that are cited in the curriculum.
 ifeval::["{suffix}" == "EMBEDDEDSEC"]
 **C**
 
-- [[[cve, CVE-Database]]] The MITRE Cooperation: Common Vulnerabilities and Exposures. https://www.cwe.org/
-- [[[cwe, CVE-Database]]] The MITRE Cooperation: Common Weakness Enumeration. https://cwe.mitre.org/
+- [[[cve, CVE-Database]]] The MITRE Cooperation: Common Vulnerabilities and Exposures. https://www.cve.org/
+- [[[cwe, CWE-Database]]] The MITRE Cooperation: Common Weakness Enumeration. https://cwe.mitre.org/
 
 **F**
 
