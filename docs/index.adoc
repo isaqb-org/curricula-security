@@ -19,8 +19,8 @@ Maintainers and volunteer reviewers collaborate on GitHub to improve the curricu
 | Version | |
 
 | EMBEDDEDSEC German
-| link:curriculum-embeddedsec-de.html[HTML]
-| link:curriculum-embeddedsec-de.pdf[PDF]
+| not available
+| not available
 
 | EMBEDDEDSEC English
 | link:curriculum-embeddedsec-en.html[HTML]
@@ -33,6 +33,5 @@ Maintainers and volunteer reviewers collaborate on GitHub to improve the curricu
 | WEBSEC English
 | link:https://public.isaqb.org/curriculum-websec/curriculum-websec-en.html[HTML]
 | link:https://public.isaqb.org/curriculum-websec/curriculum-websec-en.pdf[PDF]
-
 
 |===
