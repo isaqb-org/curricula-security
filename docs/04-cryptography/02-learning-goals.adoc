@@ -20,20 +20,20 @@ tbd.
 
 // tag::EN[]
 [[LG-4-1]]
-==== LG 4-1: Goals of Cryptography
+==== LG 4-1: Know the goals of cryptography
 
-Participants know the goals of cryptography (Authenticity, Confidentiality and Integrity).
+Participants know the goals of cryptography (Protection of authenticity, confidentiality and integrity).
 Participants know how a basic cryptographic function works.
 
 [[LG-4-2]]
-==== LG 4-2: Symmetric Cryptography
+==== LG 4-2: Understand symmetric cryptography and know its usecases
 
 Participants understand what symmetric cryptography is.
 Participants know use cases, advantages and disadvantages of symmetric cryptography.
 Participants know examples of recommended symmetric algorithms (e.g. from NIST or BSI).
 
 [[LG-4-3]]
-==== LG 4-3: Asymmetric Cryptography
+==== LG 4-3: Understand asymmetric Cryptography and know its usecases
 
 Participants understand what asymmetric cryptography is.
 Participants know use cases, advantages and disadvantages of asymmetric cryptography.
@@ -41,7 +41,7 @@ Participants know examples of recommended asymmetric algorithms (e.g. from NIST 
 of the need to future-proof applications for post-quantum attacks.
 
 [[LG-4-4]]
-==== LG 4-4: Secure Hashing
+==== LG 4-4: Understand secure hashing and know its usecases
 
 Participants understand what a hash function does.
 Participants understand quality goals of hash functions (preimage resistance, second-preimage
@@ -50,7 +50,7 @@ Participants know use cases of hashing.
 Participants know examples of recommended hashing algorithms (e.g. from NIST or BSI).
 
 [[LG-4-5]]
-==== LG 4-5: Key Derivation Functions
+==== LG 4-5: Understand key derivation functions and know their use cases
 
 Participants understand the use of key derivation functions.
 Participants understand the difference in qualities compared to hashing functions.
@@ -58,7 +58,7 @@ Participants know examples of recommended key derivation functions and their use
 BSI)
 
 [[LG-4-6]]
-==== LG 4-6: Randomness and Entropy
+==== LG 4-6: Understand the need for randomness and entropy, and know typical sources
 
 Participants understand why cryptographically-secure random values are an important cornerstone of
 cryptography.

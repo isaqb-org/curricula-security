@@ -20,7 +20,7 @@ tbd.
 
 // tag::EN[]
 [[LG-3-1]]
-==== LG 3-1: Verification Goals
+==== LG 3-1: Understand the goals of verification
 Participants understand the goals of security verification.
 Participants know classifications of security Verification methods:
 
@@ -31,7 +31,7 @@ Participants know classifications of security Verification methods:
 Participants understand the advantages and disadvantages of static and dynamic methods.
 
 [[LG-3-2]]
-==== LG 3-2: Static Analysis
+==== LG 3-2: Know static analysis techniques
 Participants know static analysis techniques such as 
 
 * Software Composition Analysis
@@ -40,7 +40,7 @@ Participants know static analysis techniques such as
 * Taint Analysis.
 
 [[LG-3-3]]
-==== LG 3-3: Dynamic Testing
+==== LG 3-3: Know dynamic testing techniques
 Participants know dynamic testing techniques such as 
 
 * Fuzzy Testing
@@ -50,7 +50,7 @@ Participants know dynamic testing techniques such as
 * Robustness Testing
 
 [[LG-3-4]]
-==== LG 3-4: Penetration Testing
+==== LG 3-4: Know what penetration testing is
 Participants understand the goal of penetration testing.
 Participants understand the relationship of penetration testing to other verification methods.
 Participants know the steps of a penetration test:
