@@ -8,7 +8,7 @@
 
 // tag::EN[]
 [[LG-1-1]]
-==== LG 1-1: Definition of Security
+==== LG 1-1: Know what security means in the context of an architecture.
 
 Participants know a definition of security and understand it as a quality of the system.
 Participants understand the relationship and trade-offs to other quality attributes.
@@ -18,14 +18,14 @@ Definitions can be found for example in ISO/IEC 25010, ISO/SAE 21434 and IEC 624
 endif::[]
 
 [[LG-1-2]]
-==== LG 1-2: Security Properties
+==== LG 1-2: Know the security triad
 
 Participants know the security properties of the universal triad: confidentiality, integrity and
 availability. In addition they know additional common properties such as authentication, authorization
 and non-repudiation.
 
 [[LG-1-3]]
-==== LG 1-3: Security Lifecycles
+==== LG 1-3: Understand that security needs to be considered throughout a product's lifecycle
 Participants understand, that security must be considered in the whole product lifecycle and not
 just for the development phase.
 Participants understand that maintaining security requires participation and consideration of all stakeholders.
@@ -38,7 +38,7 @@ Lifecycle and NIST's Secure Software Development Framework.
 endif::[]
 
 [[LG-1-4]]
-==== LG 1-4: Security Regulations and standards
+==== LG 1-4: Know relevant regulations, standards and guidelines.
 Participants understand the difference between regulations, standards and guidelines.
 Participants know examples of regulations, standards and guidelines regarding security.
 

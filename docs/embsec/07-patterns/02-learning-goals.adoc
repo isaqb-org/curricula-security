@@ -20,7 +20,7 @@ tbd.
 
 // tag::EN[]
 [[LG-7-1]]
-==== LG 7-1: Authentication and Authorization
+==== LG 7-1: Know solutions to ensure authentication and authorization
 
 Participants know methods, patterns and technologies to ensure authentication of entities and manage
 authorization for actions taken on the system.
@@ -45,7 +45,7 @@ Participants understand that user interaction with the device might be limited, 
 authentication mechanisms.
 
 [[LG-7-2]]
-==== LG 7-2: System Integrity
+==== LG 7-2: Know solutions to ensure system integrity
 
 Participants know methods, patterns and technologies to ensure the system's integrity and protect
 the system against tampering.
@@ -68,7 +68,7 @@ Examples to ensure integrity of operations are
 * control flow checking (e.g., software based encoding or hardware watchdogs),
 
 [[LG-7-3]]
-==== LG 7-3: Communication
+==== LG 7-3: Know solutions to secure communication
 
 Participants understand the necessity of ensuring confidentiality, integrity and availability of
 communication.
@@ -86,7 +86,7 @@ security mechanisms for protecting communication over such buses might have lowe
 guarantees compared to TLS or other typical communication protection.
 
 [[LG-7-4]]
-==== LG 7-4: Hardware Security
+==== LG 7-4: Know hardware security techniques and technologies
 
 Participants understand what role the underlying hardware plays in achieving security goals.
 Participants know how isolation concept can be realized with hardware support, what a Hardware
