@@ -19,7 +19,7 @@ tbd.
 
 // tag::EN[]
 [[LG-2-1]]
-==== LG 2-1: System definition and context
+==== LG 2-1: Create a system definition and context
 Participants understand the security purpose of the system context. Participants are able to create
 a system context view, building on their Foundation Level knowledge.
 The system context provides necessary information for the security analysis of the system:
@@ -29,7 +29,7 @@ The system context provides necessary information for the security analysis of t
 * Assets associated with the system
 
 [[LG-2-2]]
-==== LG 2-2: Asset and damage identification
+==== LG 2-2: Identify assets and damage scenarios
 
 Participants understand what assets are and know typical examples.
 Participants are able to identify assets for a given system.
@@ -42,7 +42,7 @@ channels.
 endif::[]
 
 [[LG-2-3]]
-==== LG 2-3: Threat Modeling
+==== LG 2-3: Perform threat modeling
 
 Participants know approaches to threat modeling (attacker-, asset-, system-centric) and understand
 their advantages and disadvantages.
@@ -52,7 +52,7 @@ Participants understand that threat modeling is an interdisciplinary tasks, that
 inputs.
 
 [[LG-2-4]]
-==== LG 2-4: Threat scenario analysis
+==== LG 2-4: Analyse identified threats
 
 Participants know approaches to identifying threats (e.g., Misuse Case Diagram, Data Flow Diagram,
 STRIDE).
@@ -62,7 +62,7 @@ Analysis, Kill-Chains).
 Participants are able to identify and analyze threats for a given system.
 
 [[LG-2-5]]
-==== LG 2-4: Risk Assessment Methods
+==== LG 2-4: Assess and rate identified risks
 
 Participants understand the goal of assessing the risk of threats and the associated damage scenarios.
 Participants know approaches to classifying and rate attack risks.

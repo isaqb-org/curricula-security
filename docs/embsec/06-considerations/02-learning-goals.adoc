@@ -20,7 +20,7 @@ tbd.
 
 // tag::EN[]
 [[LG-6-1]]
-==== LG 6-1: Security as a Quality in Embedded Systems
+==== LG 6-1: Understand security as a quality in embedded systems
 
 Participants understand security as a system quality and its relation to other quality requirements.
 Participants understand security as a quality in the context of ISO 25010 and the relation of these
@@ -33,13 +33,13 @@ uncircumventable risk, therefore it should be considered that the compromise of 
 not compromise all products (e.g., when the same symmetric key is used in all devices).
 
 [[LG-6-2]]
-==== LG 6-2: Safety and Security
+==== LG 6-2: Understand the relationship of safety and security
 
 Participants understand that embedded systems can influence the physical world and pose additional
 safety risks that need to be addressed.
 
 [[LG-6-3]]
-==== LG 6-3: Guiding Principles
+==== LG 6-3: Understand the guiding principles of security
 
 Participants understand that good software engineering practices help designing a more secure
 system.
@@ -56,7 +56,7 @@ reflected in embedded systems, examples include:
 * Input and Output Validation
 
 [[LG-6-4]]
-==== LG 6-4: Resource Restrictions
+==== LG 6-4: Understand the effect of resource restrictions on security
 
 Participants understand that resource constraints limit the solution space for embedded systems.
 Examples of such limitations are:
@@ -73,7 +73,7 @@ these keys are compromised. Enforcement of roll-back protections through hardwar
 limited by the amount of available fuses.
 
 [[LG-6-5]]
-==== LG 6-5: Software Updates
+==== LG 6-5: Understand the role of software updates
 
 Participants understand the need for software updates and the challenges deploying updates to embedded
 devices pose.
@@ -83,7 +83,7 @@ Participants know possible solutions to securely deploy updates to embedded devi
 and encrypted firmware packages, secure version numbers)
 
 [[LG-6-6]]
-==== LG 6-6: Secure Implementation
+==== LG 6-6: Know secure implementation techniques
 
 Participants understand how a well engineered implementation supports the security goals.
 Participants know standards and guidelines to reduce the likelihood of introducing defects during
