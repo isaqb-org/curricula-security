@@ -62,7 +62,7 @@ Analysis, Kill-Chains).
 Participants are able to identify and analyze threats for a given system.
 
 [[LG-2-5]]
-==== LG 2-4: Assess and rate identified risks
+==== LG 2-5: Assess and rate identified risks
 
 Participants understand the goal of assessing the risk of threats and the associated damage scenarios.
 Participants know approaches to classifying and rate attack risks.
