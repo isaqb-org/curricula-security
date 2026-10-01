@@ -20,6 +20,14 @@ ifeval::["{suffix}" == "EMBEDDEDSEC"]
 :curriculum-name: Embedded Security for Architects
 endif::[]
 
+ifeval::["{suffix}" == "AISEC"]
+:curriculum-short: AISEC
+endif::[]
+
+ifeval::["{suffix}" == "AISEC"]
+:curriculum-name: AI Systems Security for Architects
+endif::[]
+
 ifeval::["{language}" == "DE"]
 :curriculum-header-title: iSAQB-Curriculum für Advanced Level: {curriculum-short}
 endif::[]
