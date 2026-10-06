@@ -27,12 +27,10 @@ ifeval::["{suffix}" == "AISEC"]
 endif::[]
 
 ifeval::["{language}" == "DE"]
-:curriculum-name: MODULNAME IN VOLLER LAENGE
 :curriculum-header-title: iSAQB® Curriculum für Advanced Level: {curriculum-short}
 endif::[]
 
 ifeval::["{language}" == "EN"]
-:curriculum-name: FULL NAME OF MODULE
 :curriculum-header-title: iSAQB® Curriculum for Advanced Level: {curriculum-short}
 endif::[]
 
