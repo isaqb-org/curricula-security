@@ -4,6 +4,10 @@
 :imagesdir: images
 :!chapter-signifier:
 
+ifdef::prepress[]
+:media: prepress
+endif::[]
+
 // ":language:" denotes the language or the target document.
 // currently only DE and EN are supported
 :language: DE
@@ -14,24 +18,30 @@
 
 ifeval::["{suffix}" == "EMBEDDEDSEC"]
 :curriculum-short: EMBEDDEDSEC
-endif::[]
-
-ifeval::["{suffix}" == "EMBEDDEDSEC"]
 :curriculum-name: Embedded Security for Architects
 endif::[]
 
 ifeval::["{suffix}" == "AISEC"]
 :curriculum-short: AISEC
-endif::[]
-
-ifeval::["{suffix}" == "AISEC"]
 :curriculum-name: AI Systems Security for Architects
 endif::[]
 
 ifeval::["{language}" == "DE"]
-:curriculum-header-title: iSAQB-Curriculum für Advanced Level: {curriculum-short}
+:curriculum-header-title: iSAQB® Curriculum für Advanced Level: {curriculum-short}
 endif::[]
 
 ifeval::["{language}" == "EN"]
-:curriculum-header-title: iSAQB curriculum for Advanced Level: {curriculum-short}
+:curriculum-header-title: iSAQB® Curriculum for Advanced Level: {curriculum-short}
 endif::[]
+
+// title definitions for proper formatting in PDF and HTML – DO NOT TOUCH
+ifdef::backend-pdf[]
+:title-break: :{sp}
+:toc: macro
+:toc-placement: macro
+endif::[]
+ifndef::backend-pdf[]
+:title-break: pass:q[<br>]
+:toc: left
+endif::[]
+
