@@ -1,7 +1,0 @@
-ext {
-    curriculumFileName = "curriculum"
-    languages = ["DE", "EN"]
-    suffixTags = ["EMBEDDEDSEC", "WEBSEC", "AISEC"]
-}
-
-defaultTasks 'buildDocs'
