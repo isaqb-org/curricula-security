@@ -18,17 +18,11 @@ endif::[]
 
 ifeval::["{suffix}" == "EMBEDDEDSEC"]
 :curriculum-short: EMBEDDEDSEC
-endif::[]
-
-ifeval::["{suffix}" == "EMBEDDEDSEC"]
 :curriculum-name: Embedded Security for Architects
 endif::[]
 
 ifeval::["{suffix}" == "AISEC"]
 :curriculum-short: AISEC
-endif::[]
-
-ifeval::["{suffix}" == "AISEC"]
 :curriculum-name: AI Systems Security for Architects
 endif::[]
 
