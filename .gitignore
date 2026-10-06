@@ -1,11 +1,6 @@
 .DS_Store
 
-.gradle
 build
 .idea
-advanced-template.iml
-.settings/org.eclipse.buildship.core.prefs
+*.iml
 .project
-learning-objectives.adoc
-gradle/
-gradlew*
