@@ -1,0 +1,9 @@
+
+ // tag::EN[]
+
+=== Goal of the Chapter
+
+This chapter establishes the foundational architectural primitives that make AI security a discipline distinct from general application security. 
+At the end of the chapter, participants can explain why the security methods of the Security Core must be extended for AI systems, which security properties and principles govern that extension, and which classes of controls remain valid when the system under protection is non-deterministic.
+
+// end::EN[]
