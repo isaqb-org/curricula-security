@@ -1,0 +1,38 @@
+
+=== {learning-goals}
+
+// tag::EN[]
+
+[[LG-1-1]]
+==== LG 1-1: Understand how AI systems differ from deterministic software
+
+Participants understand the properties that distinguish AI systems from deterministic software: learned behaviour, non-determinism, emergent capability, and the absence of a separation between code and data. Participants understand that instructions and data share one channel (the model's context) and that this is the root cause of the AI-specific attack classes treated in the following chapters.
+
+[[LG-1-2]]
+==== LG 1-2: Know the security properties of AI systems
+
+Participants know the CIA triad as applied to AI systems:
+
+* Confidentiality of data, model weights, prompts, embeddings, context, and memory
+* Integrity of data, model weights, behaviour, and the instruction stream
+* Availability, including cost and unbounded consumption
+
+Participants know attribution and non-repudiation as a core architectural property of AI systems rather than an operational afterthought. Participants know the AI-specific security properties model integrity, behavioural integrity, prompt integrity, memory integrity, and cost availability, and can relate them to the Security Core properties.
+
+[[LG-1-3]]
+==== LG 1-3: Understand the guiding security principles for AI systems
+
+Participants understand Zero Trust, defense in depth, and least agency (the AI-specific form of least privilege) as the governing security principles for AI systems. Participants understand the principle of separation of concerns, under which security-critical controls remain outside model inference and are never delegated to the model.
+
+[[LG-1-4]]
+==== LG 1-4: Know the three classes of security controls for AI systems
+
+Participants know and can distinguish the three classes of controls and understand when each is appropriate:
+
+* Deterministic controls: rule-based architectural, technical, and operational controls such as authorization, policy-as-code, schema validation, sandboxing, resource limits, action gates, and kill switches
+* Probabilistic controls: model-based and statistical controls such as confidence estimation, anomaly detection, prompt-injection detection, groundedness evaluation, and behavioural monitoring
+* Human controls: human review, approval, intervention, escalation, and incident response, particularly for ambiguous, high-impact, or irreversible outcomes
+
+Participants understand that probabilistic controls reduce likelihood but never provide guarantees, and that deterministic controls must therefore bound the consequences of a probabilistic control failing.
+
+// end::EN[]
