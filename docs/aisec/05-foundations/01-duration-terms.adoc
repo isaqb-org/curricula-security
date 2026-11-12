@@ -1,0 +1,11 @@
+
+ // tag::EN[]
+|===
+| Duration: TBD min | Practice time: TBD min
+|===
+
+=== Terms and Principles
+
+Learned behaviour, Non-determinism, Emergent capability, Code/data separation, Instruction stream, Model integrity, Behavioural integrity, Prompt integrity, Memory integrity, Attribution, Cost availability, Unbounded consumption, Zero Trust, Defense in depth, Least agency, Separation of concerns, Deterministic control, Probabilistic control, Human control
+
+// end::EN[]
