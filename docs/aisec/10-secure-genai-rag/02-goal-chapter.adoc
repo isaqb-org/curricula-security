@@ -1,0 +1,7 @@
+// tag::EN[]
+
+=== Goal of the Chapter
+
+This chapter addresses the design of GenAI and RAG systems under the assumption that the model will be hijacked. At the end of the chapter, participants are able to classify every input by trust, to identify the surfaces through which injection reaches the model, and to select and combine architectural patterns that bound what a hijacked model can read, do, and exfiltrate.
+
+// end::EN[]
