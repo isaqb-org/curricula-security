@@ -1,0 +1,8 @@
+
+// tag::EN[]
+
+=== Goal of the Chapter
+
+The strongest direction in secure agentic AI architecture is to treat the model as an untrusted decision-making component inside a system that independently controls identity, authority, information flow, and execution. This chapter addresses agency, memory, tools, and multi-agent topology as new trust boundaries, and the architecture required to bound them. At the end of the chapter, participants are able to design an agentic system in which the harness, not the model, governs what an agent may do, in which memory and tools are treated as attack surfaces, and in which the worst-case autonomous impact is bounded and observable.
+
+// end::EN[]
