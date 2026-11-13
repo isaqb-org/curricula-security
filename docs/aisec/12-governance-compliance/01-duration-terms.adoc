@@ -1,0 +1,11 @@
+
+// tag::EN[]
+|===
+| Duration: TBD min | Practice time: TBD min
+|===
+
+=== Terms and Principles
+
+EU AI Act, Provider, Deployer, High-risk AI system, General-purpose AI (GPAI), Cyber Resilience Act (CRA), NIS2, GDPR, Human oversight, Approval fatigue, Rubber-stamping, Automation bias, Human-agent trust exploitation, Evidence-producing architecture, Traceability, Append-only log, Tamper-evident log, Observability versus minimization, ISO/IEC 42001, ISO/IEC 23894, ISO/IEC 27090, ISO/IEC 27091, NIST AI RMF, NIST GenAI Profile, NIST AI 100-2, ENISA, BSI, Assurance artefact, Post-market monitoring
+
+// end::EN[]
