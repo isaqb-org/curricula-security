@@ -1,0 +1,11 @@
+
+ // tag::EN[]
+|===
+| Duration: TBD min | Practice time: TBD min
+|===
+
+=== Terms and Principles
+
+STRIDE, PASTA, VAST, MAESTRO, MITRE ATLAS, Lifecycle attack surface, AI security asset, Data poisoning, Model poisoning, Adversarial evasion, Confidentiality attack, Model flaw, Direct prompt injection, Indirect prompt injection, Retrieval poisoning, Memory poisoning, Tool-output injection, Excessive agency, Denial of wallet, Inherent risk, Residual risk, Blast radius, Reversibility, Persistence, Detectability, Autonomous authority, AI Security Risk Register, Risk-to-Control Traceability Matrix
+
+// end::EN[]
