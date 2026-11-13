@@ -1,0 +1,54 @@
+
+=== {learning-goals}
+
+// tag::EN[]
+
+[[LG-8-1]]
+==== LG 8-1: Understand the EU AI Act as an architectural constraint
+
+Participants understand the EU AI Act as an architectural constraint and know the articles that impose requirements on an AI system's architecture: Art. 9 (risk management), Art. 10 (data governance), Art. 11 (technical documentation), Art. 12 (record-keeping and logging), Art. 14 (human oversight), Art. 15 (accuracy, robustness, and cybersecurity, including the attack classes of chapter 2), Art. 50 (transparency and machine-readable marking of synthetic content), Art. 55 (adversarial testing for GPAI with systemic risk), and Art. 72 (post-market monitoring). Participants understand that the provider versus deployer role determines which duties a given architecture must discharge.
+
+[[LG-8-2]]
+==== LG 8-2: Know the wider regulatory surface relevant to AI architects
+
+Participants know the wider regulatory surface and its architectural implications:
+
+* The Cyber Resilience Act (Regulation (EU) 2024/2847), under which vulnerability-handling and reporting obligations apply from 11 September 2026 and remaining obligations from 11 December 2027
+* NIS2 (Directive (EU) 2022/2555), applicable to essential entities operating AI systems
+* The GDPR and its direct collision with model memorization and the confidentiality attacks addressed in chapter 2
+
+[[LG-8-3]]
+==== LG 8-3: Understand human oversight and its failure modes
+
+Participants understand human oversight as a control and know its failure modes: approval fatigue and rubber-stamping, automation bias, and human-agent trust exploitation (OWASP ASI09). Participants can distinguish meaningful from ceremonial approval and design oversight so it remains meaningful under load.
+
+[[LG-8-4]]
+==== LG 8-4: Design evidence-producing architecture
+
+Participants can design an evidence-producing architecture: determine what must be logged, ensure traceability from output through prompt, retrieved context, tool call, principal, and delegation path, and require that log integrity be append-only and tamper-evident.
+
+[[LG-8-5]]
+==== LG 8-5: Understand the observability versus minimization conflict
+
+Participants understand that prompt and output logs constitute a new PII-rich asset, and that Art. 12 requirements for traceability and GDPR requirements for minimization must be reconciled. Participants know architectural approaches to this reconciliation (e.g., retention policies, redaction, access control on logs).
+
+[[LG-8-6]]
+==== LG 8-6: Know the applicable standards landscape
+
+Participants know the standards landscape applicable to AI security and governance and can position each standard: ISO/IEC 42001 (certifiable AI management system), ISO/IEC 23894 (AI risk management guidance), ISO/IEC 27090 (AI security threats), ISO/IEC 27091 (AI privacy, DIS), the NIST AI Risk Management Framework and its Generative AI Profile, NIST AI 100-2 (adversarial machine learning taxonomy), and ENISA and BSI guidance.
+
+[[LG-8-7]]
+==== LG 8-7: Know governance roles, assurance artefacts and documentation requirements
+
+Participants know the governance roles involved in an AI system, the assurance artefacts an architecture must produce (e.g., risk register, traceability matrix, technical documentation, logging evidence, post-market monitoring reports), and the documentation requirements that follow from the regulatory surface.
+
+[[LG-8-8]]
+==== LG 8-8: Communicate AI governance decisions to stakeholders
+
+Participants are able to:
+
+* Draft a short AI risk and control summary for a given system, articulating regulatory obligations (e.g., EU AI Act, CRA, NIS2) in non-technical language
+* Identify and map relevant stakeholders (e.g., provider versus deployer, board, works council, data protection, operations) and their corresponding communication needs
+* Communicate an architectural decision (e.g., introduction of new guardrails or logging requirements) to a business stakeholder, including handling concerns about cost, performance, or innovation impact
+
+// end::EN[]
