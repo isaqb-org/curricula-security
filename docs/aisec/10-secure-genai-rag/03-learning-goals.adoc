@@ -1,0 +1,70 @@
+
+=== {learning-goals}
+
+// tag::EN[]
+
+[[LG-6-1]]
+==== LG 6-1: Classify input trust
+
+Participants are able to classify content entering a model's context as trusted, attacker-controllable, or presumed attacker-controllable, and understand that this classification, not the content's apparent origin, drives the choice of controls.
+
+[[LG-6-2]]
+==== LG 6-2: Know tokenization vulnerabilities
+
+Participants know token-level attacks (token smuggling, byte-pair encoding (BPE) desynchronization, glitch tokens) and understand why these deliberately bypass text-based input sanitizers and prompt guardrails. Participants understand the consequence that input filtering alone is not a sufficient control.
+
+[[LG-6-3]]
+==== LG 6-3: Understand direct and indirect prompt injection and their delivery surfaces
+
+Participants understand direct and indirect prompt injection and know the delivery surfaces through which injection occurs: retrieved documents, web content, email, tickets, code comments, metadata, logs and telemetry, images and audio. Participants are able to enumerate the delivery surfaces of a given system.
+
+[[LG-6-4]]
+==== LG 6-4: Know multimodal adversarial perturbations
+
+Participants know that in multimodal architectures (e.g., vision-language models processing scanned invoices or identity documents) adversarial examples can force deterministic misclassifications or hide instructions via imperceptible noise rather than human-readable text, and understand the implications for input validation and human review.
+
+[[LG-6-5]]
+==== LG 6-5: Know architectural patterns that bound the effect of a hijacked model
+
+Participants know the architectural patterns from the current pattern literature (Beurer-Kellner et al. 2025; CaMeL, Google DeepMind 2025; Willison's dual-LLM pattern) and are able to select and combine them for a given system:
+
+* Context minimization: the model is exposed only to the content the task requires, reducing the injection surface and the exfiltration payload simultaneously
+* Action-selector: the model chooses among a fixed set of actions and receives no feedback from them, so that untrusted content cannot originate an action
+* Plan-then-execute: the plan is fixed before untrusted content is read, so that untrusted content may influence data but not control flow
+* Dual-LLM / quarantined-LLM: a privileged model that never sees untrusted content operates alongside a quarantined model that sees such content but holds no authority
+* Code-then-execute / capability confinement (CaMeL-style): control flow is expressed in a sandboxed domain-specific language with data-flow tracking, so that tainted data is traced and policy is enforced outside the model
+* Egress control: outbound requests, image loads, link rendering, and tool arguments are controlled as the exfiltration channel
+
+Participants understand which guarantees each pattern provides, which it does not, and what it costs in capability.
+
+[[LG-6-6]]
+==== LG 6-6: Understand permission-aware retrieval
+
+Participants understand permission-aware retrieval, including index-time versus query-time filtering, the failure modes of post-retrieval filtering, and the propagation of document access-control lists (ACLs) to vector stores. Participants are able to design retrieval so that a user never receives content they are not authorized to read.
+
+[[LG-6-7]]
+==== LG 6-7: Understand retrieval poisoning and index integrity
+
+Participants understand retrieval poisoning and the measures that protect index integrity: provenance of indexed content, grounding, citation integrity, and the management of conflicting retrieved sources.
+
+[[LG-6-8]]
+==== LG 6-8: Understand system-prompt leakage
+
+Participants understand that the system prompt must be treated as public and is therefore required to exclude secrets, credentials, and authorization decisions. Participants are able to review a system prompt for content that must not be there.
+
+[[LG-6-9]]
+==== LG 6-9: Know vector and embedding weaknesses
+
+Participants know vector and embedding weaknesses: embedding inversion, cross-tenant leakage in shared vector stores, and poisoned embeddings (OWASP LLM08), and know the corresponding isolation and integrity controls.
+
+[[LG-6-10]]
+==== LG 6-10: Understand insecure output handling
+
+Participants understand that model output is untrusted and must be validated prior to downstream consumption, preventing SQL and template injection and code execution. Participants understand that model output is never executed with caller authority.
+
+[[LG-6-11]]
+==== LG 6-11: Know RAG security verification
+
+Participants know verification approaches for GenAI and RAG systems, including injection and exfiltration testing across the delivery surfaces, permission-aware retrieval testing, and formal verification of sandboxed control flow in capability-confined architectures.
+
+// end::EN[]
