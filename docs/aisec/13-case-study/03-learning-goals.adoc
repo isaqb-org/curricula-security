@@ -1,0 +1,27 @@
+
+=== {learning-goals}
+
+// tag::EN[]
+
+[[LG-9-1]]
+==== LG 9-1: Apply the full AISEC method end-to-end to a realistic AI-enabled system
+
+Participants are able to apply the full method end-to-end to a realistic AI-enabled system, whether RAG-based or agentic, addressing in sequence:
+
+* Assets (chapter 2, chapter 4)
+* Threat model and risk register (chapter 2)
+* Authority model (chapter 3)
+* Confinement patterns and run-time controls (chapters 5 to 7)
+* Evidence architecture (chapter 8)
+
+[[LG-9-2]]
+==== LG 9-2: Answer the nine security-architectural questions with supporting evidence
+
+Participants are able to answer, with supporting evidence from their case work, the nine security-architectural questions established in the Essentials, as applied to the case system.
+
+[[LG-9-3]]
+==== LG 9-3: Present and defend the security architecture and residual risk to non-technical stakeholders
+
+Participants are able to communicate residual risk and the chosen security architecture to a non-technical stakeholder in a structured presentation, to justify the trade-offs made, and to respond to challenges on cost, performance, and innovation impact, demonstrating the communicative competence that turns an architecture into an accepted decision.
+
+// end::EN[]
