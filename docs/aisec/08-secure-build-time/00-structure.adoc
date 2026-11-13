@@ -1,4 +1,4 @@
- // tag::EN[]
+// tag::EN[]
 == Secure Build-Time Architecture: Data, Model, and Supply Chain
 // end::EN[]
 
