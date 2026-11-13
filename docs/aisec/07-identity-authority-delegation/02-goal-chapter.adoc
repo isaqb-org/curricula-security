@@ -1,0 +1,8 @@
+
+ // tag::EN[]
+
+=== Goal of the Chapter
+
+This chapter establishes the authority model for AI systems. At the end of the chapter, participants are able to state, for any component of an AI-enabled system, who or what is acting, under whose authority, with what credential, and for how long, and to design the identity and authorization architecture that makes these statements enforceable and auditable.
+
+// end::EN[]
