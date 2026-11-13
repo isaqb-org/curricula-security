@@ -1,0 +1,50 @@
+
+=== {learning-goals}
+
+// tag::EN[]
+
+[[LG-4-1]]
+==== LG 4-1: Know the AI artefact inventory
+
+Participants know the elements of an AI artefact inventory and are able to compile one for a given system: metadata (datasets, features, model, version, hash, origin, license, training and fine-tuning lineage, adapters, tokenizer, configuration), loading code, runtime, dependencies, evaluation results, and deployment attestation.
+
+[[LG-4-2]]
+==== LG 4-2: Understand model provenance across the derivation graph
+
+Participants understand model provenance across the full derivation graph, comprising base models, fine-tunes, adapters (LoRA), quantizations, and merges. Participants understand that each derivation step is a point at which integrity can be lost and are able to specify the provenance evidence required at each step.
+
+[[LG-4-3]]
+==== LG 4-3: Understand third-party model risk
+
+Participants understand third-party model risk as an architectural constraint, comprising untrusted model hubs, typosquatting, unsigned artefacts, and license and export constraints. Participants are able to define acceptance criteria for externally sourced models, adapters, and datasets.
+
+[[LG-4-4]]
+==== LG 4-4: Know secure training and build pipelines
+
+Participants know the elements of secure training and build pipelines: isolated environments, secure registry pathing, and reproducibility. Participants understand reproducibility as a security property that supports incident forensics, not only as an engineering convenience.
+
+[[LG-4-5]]
+==== LG 4-5: Know dependency risk across the AI stack
+
+Participants know dependency risk across the AI stack, including data pipelines, ML frameworks, inference runtimes, (vector) databases, and agent frameworks, and are able to apply software supply chain practices (e.g., SLSA, Sigstore, in-toto, software bills of materials) to AI artefacts.
+
+[[LG-4-6]]
+==== LG 4-6: Know cryptographic verification and confidential computing for AI
+
+Participants know cryptographic verification of AI artefacts (signing and attestation) and Trusted Execution Environments (TEEs). Participants know confidential computing as a means to prevent memory tampering during training and inference (e.g., confidential containers), and cryptographic watermarking and fingerprinting of synthetic outputs as a means to verify provenance. Participants understand the limits of each measure.
+
+[[LG-4-7]]
+==== LG 4-7: Know model-security testing approaches
+
+Participants understand why single-run testing is insufficient for non-deterministic systems and know the testing methods appropriate to them: repeated-trial testing, differential testing between model versions, and metamorphic testing. On this basis, participants know model-security testing approaches and are able to select those appropriate to a given model and risk profile:
+
+* Adversarial-evasion testing
+* Training-data poisoning simulations
+* Backdoor and trigger testing
+* Model extraction testing
+* Membership inference and model inversion testing
+* Memorization and secret-extraction testing
+* Fine-tune and adapter backdoor analysis
+* Robustness testing under distribution shift
+
+// end::EN[]
