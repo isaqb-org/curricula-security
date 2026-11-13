@@ -1,0 +1,10 @@
+// tag::EN[]
+|===
+| Duration: TBD min | Practice time: TBD min
+|===
+
+=== Terms and Principles
+
+Input trust classification, Attacker-controllable content, Token smuggling, BPE desynchronization, Glitch token, Direct prompt injection, Indirect prompt injection, Delivery surface, Multimodal adversarial perturbation, Context minimization, Action-selector, Plan-then-execute, Dual-LLM / Quarantined-LLM, Code-then-execute, Capability confinement (CaMeL), Egress control, Exfiltration channel, Permission-aware retrieval, Index-time filtering, Query-time filtering, Retrieval poisoning, Index integrity, Grounding, Citation integrity, System-prompt leakage, Embedding inversion, Cross-tenant leakage, Insecure output handling
+
+// end::EN[]
