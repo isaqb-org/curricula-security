@@ -1,0 +1,7 @@
+// tag::EN[]
+
+=== Goal of the Chapter
+
+This chapter addresses build-time integrity: securing the assets, pipelines, and third-party components from which an AI system is constructed. At the end of the chapter, participants can determine whether a given AI system and its training pipeline can be trusted, and to which degree the provenance of a model can be verified.
+
+// end::EN[]
