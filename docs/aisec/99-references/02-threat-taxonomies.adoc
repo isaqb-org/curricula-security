@@ -1,0 +1,18 @@
+
+// tag::EN[]
+
+=== Threat Taxonomies
+
+* [OWASP LLM Top 10] OWASP GenAI Security Project: "OWASP Top 10 for Large Language Model Applications", version 2025. https://genai.owasp.org/llm-top-10/
+
+* [OWASP Agentic Top 10] OWASP GenAI Security Project, Agentic Security Initiative: "OWASP Top 10 for Agentic Applications", 2026 edition (published December 2025).
+
+* [OWASP ASI Guides] OWASP GenAI Security Project: "Agentic AI: Threats and Mitigations"; "A Practical Guide to Securing Agentic Applications"; "Multi-Agentic System Threat Modeling Guide" v1.0; "The State of Agentic AI Security and Governance".
+
+* [MITRE ATLAS] MITRE: "Adversarial Threat Landscape for Artificial-Intelligence Systems". https://atlas.mitre.org/ (extended in 2025 with GenAI techniques including RAG poisoning, false RAG entry injection, and LLM prompt crafting)
+
+* [NIST AI 100-2] NIST: "Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations" (AI 100-2 E2025).
+
+* [OWASP ML Top 10] OWASP: "Machine Learning Security Top 10". https://owasp.org/www-project-machine-learning-security-top-10/
+
+// end::EN[]
