@@ -1,0 +1,24 @@
+
+// tag::EN[]
+
+=== Papers, Architecture Patterns, and Primary Technical Sources
+
+* [Patterns] Beurer-Kellner, L. et al.: "Design Patterns for Securing LLM Agents against Prompt Injections", arXiv:2506.08837 (2025). Six patterns: action-selector, plan-then-execute, LLM map-reduce, dual LLM, code-then-execute, context minimisation.
+
+* [Plan-Then-Execute] Piet, J. et al.: "Web Agents Should Adopt the Plan-Then-Execute Paradigm", arXiv:2605.14290 (2026).
+
+* [ClawLess] Lu, H. et al.: "ClawLess: A Security Model of AI Agents", arXiv:2604.06284 (2026).
+
+* [Agent4Sec] Kolluri, A. et al.: "Optimizing agent planning for security and autonomy", arXiv:2602.11416 (2026).
+
+* [CaMeL] Google DeepMind: "Defeating Prompt Injections by Design" (CaMeL), 2025.
+
+* [Dual LLM] Willison, S.: "The Dual LLM pattern for building AI assistants that can resist prompt injection" (2023); "The lethal trifecta" (2025).
+
+* [MCP] Anthropic: "Model Context Protocol". https://modelcontextprotocol.io/
+
+* [RFC 8693] IETF: OAuth 2.0 Token Exchange.
+
+* [Supply chain] Sigstore; in-toto; SLSA.
+
+// end::EN[]
