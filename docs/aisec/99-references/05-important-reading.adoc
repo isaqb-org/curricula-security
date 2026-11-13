@@ -1,0 +1,20 @@
+
+// tag::EN[]
+
+=== Important Reading
+
+* [GDM] Google DeepMind: "AI Control Roadmap". https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/securing-the-future-of-ai-agents/gdm-ai-control-roadmap.pdf
+
+* Google DeepMind: "The Three Layers of Agent Security: A Framework for Policymakers". https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/securing-the-future-of-ai-agents/three-layers-of-agent-security.pdf
+
+* "Beyond the Algorithm: AI, Security, Privacy, and Ethics". https://learning.oreilly.com/library/view/beyond-the-algorithm/9780138268442/
+
+* "Three Essentials for Agentic AI Security". https://learning.oreilly.com/library/view/three-essentials-for/53863MIT66436/
+
+* "AI Governance: Secure, privacy-preserving, ethical systems". Manning. https://www.manning.com/books/ai-governance
+
+* Díaz, S., Kern, C., Olive, K.: "Google's Approach for Secure AI Agents: An Introduction" (2025). https://saif.google/ai-development-primer
+
+* Osmani, A.: Security agent skill and security-and-hardening skills. https://github.com/addyosmani/agent-skills/blob/main/references/security-checklist.md and https://github.com/addyosmani/agent-skills/tree/main/skills/security-and-hardening
+
+// end::EN[]
