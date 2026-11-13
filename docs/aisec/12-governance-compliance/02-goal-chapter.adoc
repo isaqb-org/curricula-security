@@ -1,0 +1,8 @@
+
+// tag::EN[]
+
+=== Goal of the Chapter
+
+This chapter addresses compliance and auditability by design, and the limits of human oversight. At the end of the chapter, participants are able to translate regulatory obligations into architectural requirements, to design an architecture that produces the evidence auditors and regulators require, and to explain AI governance decisions, regulatory constraints, and residual risks to non-technical stakeholders and governance bodies.
+
+// end::EN[]
