@@ -1,0 +1,11 @@
+
+// tag::EN[]
+|===
+| Duration: TBD min | Practice time: TBD min
+|===
+
+=== Terms and Principles
+
+Serving architecture, Tenancy boundary, Shared-infrastructure leakage, Prompt cache, Host/accelerator isolation, Egress control, Model theft, Rate limiting, Quota architecture, Query-distribution auditing, Prompt lifecycle, System prompt as deployment, Promotion gate, Environment separation, Continuous evaluation, Safety regression testing, Differential testing, Canary deployment, Shadow deployment, Drift, Anomaly handling, Token budget, Loop cap, Concurrency limit, Kill switch, Rollback, Forensic logging, Adversarial fuzzing, Red teaming, Guardrail, Linear probe, Activation-space monitoring
+
+// end::EN[]
