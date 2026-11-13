@@ -1,0 +1,41 @@
+
+=== {learning-goals}
+
+// tag::EN[]
+
+[[LG-3-1]]
+==== LG 3-1: Understand non-human identity as the dominant identity class in AI systems
+
+Participants understand that workload and agent identities (non-human identities, NHI) are the dominant identity class in AI systems. Participants understand why shared service accounts are an anti-pattern that destroys attributability, and are able to design identity assignment so that every acting component carries its own identity.
+
+[[LG-3-2]]
+==== LG 3-2: Understand the authority delegation chain
+
+Participants understand the authority delegation chain (human principal, application, agent, sub-agent, tool, downstream system) and the propagation of authority along that chain. Participants are able to model the delegation chain for a given AI system and to identify where authority is widened, narrowed, or lost.
+
+[[LG-3-3]]
+==== LG 3-3: Understand the confused deputy problem in agentic systems
+
+Participants understand the confused deputy problem as it manifests in agentic systems: an agent holds more authority than the requester and can be induced, for example by injected content, to act on the requester's behalf. Participants are able to recognize confused-deputy configurations in an architecture and know the design measures that prevent them.
+
+[[LG-3-4]]
+==== LG 3-4: Know delegated authorization and short-lived credentials
+
+Participants know delegated authorization mechanisms, including audience restriction, scoping-down, token exchange (e.g., OAuth 2.0 Token Exchange, RFC 8693), and short-lived just-in-time (JIT) credentials. Participants understand the constraint that sandboxes and agents must not access long-lived secrets, and are able to design credential issuance accordingly.
+
+[[LG-3-5]]
+==== LG 3-5: Know capability-based authorization and least agency
+
+Participants know capability-based authorization and understand least agency as the governing principle under which authority is restricted to specific actions, resources, and timeframes. Participants are able to derive the minimal capability set an agent or tool requires for a given task.
+
+[[LG-3-6]]
+==== LG 3-6: Know policy-as-code enforcement
+
+Participants know policy-as-code enforcement: externalized, machine-evaluable, versioned policies applied against a deny-by-default tool surface. Participants understand why authorization decisions must be made outside the model and can position a policy enforcement point in an AI architecture.
+
+[[LG-3-7]]
+==== LG 3-7: Understand attribution and audit identity
+
+Participants understand attribution and audit identity: the tracing of every action to a principal and its delegation path in support of incident forensics. Participants can specify which identity information must be carried through the delegation chain so actions remain attributable end-to-end.
+
+// end::EN[]
