@@ -1,0 +1,11 @@
+
+// tag::EN[]
+|===
+| Duration: TBD min | Practice time: TBD min
+|===
+
+=== Terms and Principles
+
+AI artefact inventory, Model provenance, Derivation graph, Base model, Fine-tune, Adapter (LoRA), Quantization, Model merge, Model hub, Typosquatting, Signed artefact, Secure registry, Reproducibility, Isolated training environment, Software supply chain (SLSA, Sigstore, in-toto), Trusted Execution Environment (TEE), Confidential computing, Watermarking, Fingerprinting, Repeated-trial testing, Differential testing, Metamorphic testing, Adversarial evasion testing, Backdoor testing, Model extraction, Membership inference, Model inversion, Memorization, Distribution shift
+
+// end::EN[]
