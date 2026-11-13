@@ -1,0 +1,11 @@
+
+// tag::EN[]
+|===
+| Duration: TBD min | Practice time: TBD min
+|===
+
+=== Terms and Principles
+
+Agent, Single-agent topology, Multi-agent topology, Orchestration, Agent loop, Injection amplification, Harness, Trusted computing base (TCB), Security by construction, Information-flow tracking, Taint, Least agency by design, Action gating, Consequence-based approval, Blast-radius limit, Context memory, Persistent memory, Memory poisoning, Memory provenance, Time-to-live (TTL), Tool surface, Connector, Model Context Protocol (MCP), Tool poisoning, Tool name collision, Allowlist, Protocol integrity, Untrusted proposal, Agent supply chain, Skill, Plugin, Sandboxing, Agent-to-agent (A2A), Transitive delegation, Cascading failure, Rogue agent, Behavioural divergence, AgentOps, Replay, Release gate
+
+// end::EN[]
