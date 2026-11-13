@@ -1,0 +1,59 @@
+
+=== {learning-goals}
+
+// tag::EN[]
+
+[[LG-2-1]]
+==== LG 2-1: Select and justify an AI threat-modeling method
+
+Participants know the following threat-modeling methods and are able to select and justify one appropriate to the system under assessment:
+
+* STRIDE, applied to AI systems across the data, model, prompt, embedding, memory, and tool surfaces, projecting the classical threat categories onto AI-specific components and data flows
+* PASTA (Process for Attack Simulation and Threat Analysis), applied for risk-driven analysis along the AI lifecycle, aligning business objectives, architecture, threats, attack scenarios, and countermeasures, with explicit consideration of regulatory requirements (e.g., EU AI Act, NIS2, CRA)
+* VAST (Visual, Agile, and Simple Threat Modeling), applied within agile development processes, enabling scalable threat models for many AI use cases without requiring deep security expertise in every team
+* MAESTRO (Cloud Security Alliance, 2025), a seven-layer framework for agentic systems spanning foundation models, data operations, agent frameworks, deployment and infrastructure, evaluation and observability, security and compliance, and the agent ecosystem
+* MITRE ATLAS, used as a threat catalog for tactic and technique navigation, providing AI-specific attack patterns that can be mapped into scenarios of the chosen method
+
+[[LG-2-2]]
+==== LG 2-2: Know the AI lifecycle attack surface
+
+Participants know the lifecycle attack surface of AI systems, including data processing, training, fine-tuning, storage, indexing, retrieval, and inference, and can locate threats on it.
+
+[[LG-2-3]]
+==== LG 2-3: Identify AI-specific security assets
+
+Participants are able to identify the security assets of a given AI system, including:
+
+* Training and fine-tuning data, evaluation and test datasets, feedback and reinforcement-learning data
+* Model weights, adapters, model cards, configuration files, and deployment manifests
+* Prompts, embeddings, vector stores, and memory (conversation memory and session state)
+* Tool definitions and credentials (APIs, databases, cloud services)
+* Orchestration scripts, agent frameworks, workflow definitions, and configurations
+* Logs, monitoring, telemetry, and audit trails
+
+[[LG-2-4]]
+==== LG 2-4: Know AI-specific attack categories
+
+Participants know the AI-specific attack categories and can relate them to the Security Core attack patterns:
+
+* The EU AI Act attack categories: data and model poisoning, adversarial evasion, confidentiality attacks, and model flaws
+* GenAI application attacks: direct and indirect prompt injection, retrieval and memory poisoning, and tool-output injection
+* Excessive agency, tool misuse, and denial of wallet (unbounded consumption) as the AI-native form of denial of service
+
+[[LG-2-5]]
+==== LG 2-5: Rate and prioritize AI security risks
+
+Participants can rate and prioritize identified AI security risks. Participants:
+
+* Distinguish among threats, vulnerabilities, inherent risk, existing controls, and residual risk
+* Assess attack feasibility, impact, blast radius, reversibility, persistence, detectability, and autonomous authority as risk factors
+* Evaluate the strength of existing controls, including whether such controls remain effective following model compromise
+* Prioritize identified risks according to predefined risk criteria
+* Produce a prioritized AI Security Risk Register as the output artefact of this stage
+
+[[LG-2-6]]
+==== LG 2-6: Map risks to controls and document trade-offs
+
+Participants are able to map identified threats to mitigating controls (preventive, detective, containment, and recovery), to document the associated trade-offs with respect to latency, cost, accuracy, privacy, and operability, and to produce a Risk-to-Control Traceability Matrix as the output artefact of this stage.
+
+// end::EN[]
