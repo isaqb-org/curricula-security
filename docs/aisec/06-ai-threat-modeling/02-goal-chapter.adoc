@@ -1,0 +1,8 @@
+
+ // tag::EN[]
+
+=== Goal of the Chapter
+
+This chapter establishes a repeatable, architecture-oriented process by which participants identify AI-specific threat scenarios, assess and prioritize the resulting security risks, and map identified risks to preventive, detective, containment, and recovery controls. The process is organized into three stages: threat identification, rating and prioritization, and mapping to controls. The chapter additionally trains participants to facilitate threat-modeling workshops and to communicate the resulting AI security risks and controls to diverse stakeholder groups.
+
+// end::EN[]
