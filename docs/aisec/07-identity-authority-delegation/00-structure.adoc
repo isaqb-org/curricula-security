@@ -1,5 +1,5 @@
 
- // tag::EN[]
+// tag::EN[]
 == Identity, Authority, and Delegation in AI Systems
 // end::EN[]
 
