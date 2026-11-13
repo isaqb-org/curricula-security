@@ -3,12 +3,12 @@
 == References
 // end::EN[]
 
-include::01-normative-regulation/references.adoc[{include_configuration}]
+include::01-normative-regulation.adoc[{include_configuration}]
 
-include::02-threat-taxonomies/references.adoc[{include_configuration}]
+include::02-threat-taxonomies.adoc[{include_configuration}]
 
-include::03-frameworks-standards/references.adoc[{include_configuration}]
+include::03-frameworks-standards.adoc[{include_configuration}]
 
-include::04-papers-architecture-patterns/references.adoc[{include_configuration}]
+include::04-papers-architecture-patterns.adoc[{include_configuration}]
 
-include::05-important-reading/references.adoc[{include_configuration}]
+include::05-important-reading.adoc[{include_configuration}]
