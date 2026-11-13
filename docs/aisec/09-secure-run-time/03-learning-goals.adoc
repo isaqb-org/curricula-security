@@ -1,0 +1,51 @@
+
+=== {learning-goals}
+
+// tag::EN[]
+
+[[LG-5-1]]
+==== LG 5-1: Know serving architecture and isolation
+
+Participants know the isolation concerns of AI serving architectures: tenancy boundaries, shared-infrastructure leakage risks (prompt and cache reuse), host and accelerator isolation, and egress control. Participants are able to identify isolation gaps in a given serving topology.
+
+[[LG-5-2]]
+==== LG 5-2: Know extraction-resistant serving
+
+Participants know measures that mitigate model theft through the serving interface: rate limiting, quota architectures, and query-distribution auditing. Participants understand the trade-off between extraction resistance and service usability.
+
+[[LG-5-3]]
+==== LG 5-3: Understand the prompt and configuration lifecycle
+
+Participants understand that system-prompt and configuration changes alter system behaviour and must be managed as formal production deployments: versioned, reviewed, signed, gated, and subject to rollback. Participants are able to design a prompt and configuration lifecycle equivalent in rigour to the code deployment lifecycle.
+
+[[LG-5-4]]
+==== LG 5-4: Know pipeline poisoning vectors and deployment controls
+
+Participants know the vectors by which model registries and deployment pipelines can be taken over, and know the controls that secure them: promotion gates, environment separation, and signed promotion of artefacts between environments.
+
+[[LG-5-5]]
+==== LG 5-5: Know continuous evaluation and safety regression testing
+
+Participants know continuous evaluation as a run-time control: safety regression testing supported by canary and shadow deployments to detect behavioural changes that health checks do not capture. Participants know differential testing between model versions and repeated-trial testing as the methods by which this evidence is produced, and understand why a model or prompt change requires behavioural regression evidence before promotion.
+
+[[LG-5-6]]
+==== LG 5-6: Know runtime monitoring, abuse detection and consumption controls
+
+Participants know runtime monitoring and abuse detection for AI systems, including drift and anomaly handling, together with resource-consumption controls (token budgets, loop caps, concurrency limits) as the mitigation of denial of wallet.
+
+[[LG-5-7]]
+==== LG 5-7: Know incident response for AI systems
+
+Participants know incident response for AI systems, including rollback protocols for compromised models, prompts, memory, or indexes, and the implementation of kill switches, overrides, and forensic logging. Participants know approaches to verify runtime resilience and incident-response readiness.
+
+[[LG-5-8]]
+==== LG 5-8: Know automated adversarial fuzzing and red teaming
+
+Participants know automated adversarial fuzzing and red teaming integrated into the delivery pipeline in support of continuous evaluation and safety regression testing (e.g., Promptfoo, PyRIT, Garak). Participants understand the role of such tooling as a release gate and its limits as a probabilistic control.
+
+[[LG-5-9]]
+==== LG 5-9: Understand internal versus external guardrail topologies
+
+Participants understand that architects must decide where guardrail controls reside. Participants know external wrapper models and their cost in latency, inference cost, and context overhead, and know linear probes and activation-space monitoring as an internal sidecar pattern that inspects hidden states with minimal inference latency. Participants are able to justify a guardrail topology for a given system.
+
+// end::EN[]
