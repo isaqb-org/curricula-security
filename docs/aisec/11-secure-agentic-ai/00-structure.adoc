@@ -1,0 +1,12 @@
+
+// tag::EN[]
+== Secure Agentic AI Architectures
+// end::EN[]
+
+include::01-duration-terms.adoc[{include_configuration}]
+
+include::02-goal-chapter.adoc[{include_configuration}]
+
+include::03-learning-goals.adoc[{include_configuration}]
+
+include::references.adoc[{include_configuration}]
