@@ -1,0 +1,8 @@
+
+// tag::EN[]
+
+=== Goal of the Chapter
+
+This chapter addresses run-time integrity and operational control. At the end of the chapter, participants can determine what is currently running in a given AI system, who is authorized to change it, how behavioural change is detected, and how a compromised model, prompt, memory, or index is contained and rolled back.
+
+// end::EN[]
