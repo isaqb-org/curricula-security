@@ -1,0 +1,14 @@
+
+// tag::EN[]
+== References
+// end::EN[]
+
+include::01-normative-regulation/references.adoc[{include_configuration}]
+
+include::02-threat-taxonomies/references.adoc[{include_configuration}]
+
+include::03-frameworks-standards/references.adoc[{include_configuration}]
+
+include::04-papers-architecture-patterns/references.adoc[{include_configuration}]
+
+include::05-important-reading/references.adoc[{include_configuration}]
