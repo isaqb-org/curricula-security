@@ -1,0 +1,72 @@
+
+=== {learning-goals}
+
+// tag::EN[]
+
+[[LG-7-1]]
+==== LG 7-1: Understand single- and multi-agent topologies and the agent loop
+
+Participants understand single- versus multi-agent topologies, orchestration security, and the distinction between planning and acting. Participants understand the agent loop as an injection amplifier: content read in one iteration shapes the actions of the next.
+
+[[LG-7-2]]
+==== LG 7-2: Understand the harness as the trusted computing base and security by construction
+
+Participants understand the harness, the deterministic code governing context, state, loops, and tools, as part of the trusted computing base. Participants understand security by construction as the governing design stance for agentic systems: security properties are established by the execution architecture rather than by the model's ability to identify malicious instructions. Using CaMeL (Google DeepMind, 2025) as the reference model, participants know the four elements of such an architecture:
+
+* Control and data flow are derived from the trusted user request, before untrusted content is read
+* Untrusted retrieved data may influence data values but never program control flow
+* Information-flow permissions (capabilities, taint) are tracked through the data as it moves
+* Security policies are enforced at the point of tool invocation, outside the model
+
+Participants relate these elements to the confinement patterns of LG 6-5 and understand that security decisions must additionally be enforced externally to the harness (identity, authorization, sandbox, network, resources). Participants are able to allocate each security decision to its enforcement point.
+
+[[LG-7-3]]
+==== LG 7-3: Apply least agency by design
+
+Participants are able to apply least agency by design: action gating, consequence-based approval, prioritization of reversibility, blast-radius limits, and evaluation of worst-case autonomous impact. Participants are able to classify an agent's actions by reversibility and consequence and to derive the gating policy from that classification.
+
+[[LG-7-4]]
+==== LG 7-4: Understand the memory attack surface
+
+Participants understand the memory attack surface, including the distinction between context and persistent memory, and poisoning as a persistence mechanism (OWASP ASI06). Participants know policies governing memory writes, provenance, time-to-live (TTL), and exfiltration defense, and are able to specify them for a given agent.
+
+[[LG-7-5]]
+==== LG 7-5: Understand the tool and connector surface
+
+Participants understand the tool and connector surface, including the Model Context Protocol (MCP): untrusted tool definitions, tool poisoning, behavioural updates of tools, name collisions, injection via tool output, and registration controls. Participants know the mitigations: allowlists, validation, and deny-by-default policy.
+
+[[LG-7-6]]
+==== LG 7-6: Understand protocol integrity
+
+Participants understand protocol integrity, under which model-generated actions are treated as untrusted proposals rather than authoritative commands, and are able to position validation and authorization between the proposal and its execution. Participants understand this as the enforcement point of security by construction (LG 7-2): the policy check at tool invocation is where the tracked information-flow permissions are applied.
+
+[[LG-7-7]]
+==== LG 7-7: Know agent supply chain risk
+
+Participants know agent supply chain risk, comprising backdoor risk in frameworks, skills, plugins, and repositories, and transitive third-party access, and are able to extend the build-time controls of chapter 4 to agent components.
+
+[[LG-7-8]]
+==== LG 7-8: Know sandboxing and formal verification of agents and tools
+
+Participants know sandboxing of agents and tools, comprising isolation of execution, filesystem, network, and credentials, to prevent execution-based bypasses. Participants know where formal verification of agent and tool behaviour is applicable and what it can and cannot guarantee.
+
+[[LG-7-9]]
+==== LG 7-9: Understand multi-agent trust
+
+Participants understand multi-agent trust, including agent-to-agent (A2A) injection, transitive delegation, cross-vendor trust, and cascading failures (OWASP ASI08). Participants are able to define trust boundaries between agents and to apply the delegation model of chapter 3 across them.
+
+[[LG-7-10]]
+==== LG 7-10: Know rogue agent modes and behavioural monitoring
+
+Participants know rogue agent modes (OWASP ASI10) and know monitoring approaches that distinguish behavioural divergence from incorrect output.
+
+[[LG-7-11]]
+==== LG 7-11: Know agent verification and AgentOps
+
+Participants know verification approaches for agentic systems and the operational practices that sustain them:
+
+* Memory-security verification: unauthorized memory-write testing, poisoned-memory persistence testing, and provenance-tampering testing
+* Manual and automated red teaming of agents
+* AgentOps: tracing of actions to principals and plans, replay and forensics, and adversarial-evaluation release gates
+
+// end::EN[]
