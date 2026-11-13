@@ -1,0 +1,11 @@
+
+// tag::EN[]
+|===
+| Duration: TBD min | Practice time: TBD min
+|===
+
+=== Terms and Principles
+
+Asset inventory, Threat model, Authority model, Confinement pattern, Evidence architecture, Residual risk, Security-architectural questions, Stakeholder presentation
+
+// end::EN[]
