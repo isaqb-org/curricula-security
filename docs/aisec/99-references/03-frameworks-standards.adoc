@@ -1,0 +1,32 @@
+
+// tag::EN[]
+
+=== Frameworks, Methods, and Standards
+
+* [NIST AI RMF] NIST: "AI Risk Management Framework (AI RMF 1.0)". https://www.nist.gov/itl/ai-risk-management-framework
+
+* [NIST GenAI Profile] NIST: "AI RMF: Generative AI Profile" (NIST AI 600-1).
+
+* [MAESTRO] Cloud Security Alliance: "Agentic AI Threat Modeling Framework: MAESTRO" (2025). Seven layers: foundation models; data operations; agent frameworks; deployment and infrastructure; evaluation and observability; security and compliance; agent ecosystem.
+
+* [ISO/IEC 42001:2023] AI management system (certifiable).
+
+* [ISO/IEC 23894:2023] AI risk management guidance.
+
+* [ISO/IEC 27090] "Cybersecurity, Artificial Intelligence, Addressing security threats and compromises to artificial intelligence systems".
+
+* [ISO/IEC 27091] Cybersecurity and privacy for AI. DIS; expected to follow 27090.
+
+* [ENISA FAICP] ENISA: "Multilayer Framework for Good Cybersecurity Practices for AI" (June 2023). Also: "Securing Machine Learning Algorithms" (2021).
+
+* [BSI GenAI] BSI: "Generative AI Models: Opportunities and Risks for Industry and Authorities" (updated January 2025).
+
+* [BSI/ANSSI] BSI and ANSSI: "German-French recommendations for the use of AI programming assistants".
+
+* [SAIF] Google: "Secure AI Framework". https://www.saif.google
+
+* [STARAI] STAR for AI. https://cloudsecurityalliance.org/star/ai/
+
+* [SLSA] Supply-chain Levels for Software Artifacts. https://slsa.dev/
+
+// end::EN[]
